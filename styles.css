@@ -1,0 +1,1310 @@
+/* GENERAL CODE */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141429;
+}
+/* HEADER */
+
+
+header.headerIndex{
+    display: block;
+    background-color: #ff5858;
+    position: fixed;
+    padding: 30px;
+    top: 40;
+    width: 100%;
+    z-index: 1;
+}
+
+header nav{
+    text-align: left;
+    display:inline-block;
+    width:60%;
+}
+
+header ul li{
+    display: inline-block;
+}
+
+header ul li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+header ul li a:hover{
+    background-color: #facaca;
+    border-color: #ff9898;
+}
+
+header ul li a:active{
+    padding: 0.2em;
+}
+
+/* END HEADER */
+
+/* MAIN */
+
+main.mainIndex {
+    background-image: url("./multimedia/SP-nowayhome.jpg");
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    background-position: center;
+}
+
+main div.container-1 {
+    display: inline-block;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33.6px;
+    font-style: normal;
+    letter-spacing: 0;
+    margin-top: 60px;
+    margin-bottom: 24px;
+    color: #fff;
+    margin: 15%;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+
+
+h4.title1 {
+    margin-left: 45px;
+    margin-bottom: 15px;
+}
+h4.title2 {
+    font-size: 50px;
+}
+h4.title3 {
+    margin-left: 55px;
+    margin-top:15px;
+}
+h5.textP {
+    font-size: 18px;
+    margin-top: 10px;;
+}
+/* END TITLES */
+
+/* BUTTON */
+button.watchNow {
+    display: inline-block;
+    text-align: center;
+    border-color: #ff5858;
+    background-color:#ff9898;
+}
+
+button.watchNow a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+
+button.watchNow:hover{
+    background-color: #ff6464;
+    border-color: #ff9494;
+}
+
+button.watchNow:active{
+    padding: 0.2em;
+}
+
+/* END BUTTON */
+
+/* CONTAINERS 1-2 */
+div.container-2 {
+    display: block;
+    background-color: #ff5858;
+    padding: 10px;
+    position: absolute;
+    top: 570px;
+    left: 200px;
+}
+div.container-3 {
+    display: block;
+    background-color: #ff5858;
+    padding: 10px;
+    position: absolute;
+    top: 570px;
+    right: 200px;
+}
+
+h4.homecoming {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+    margin-left: 30%;
+}
+
+iframe.youtube1 {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+button.verAhora1 {
+    display: inline-block;
+    text-align: center;
+    border-color: #ff5858;
+    background-color:#ff9898;
+    margin-left: 35%;
+}
+
+button.verAhora1 a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 17px;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+
+button.verAhora1:hover{
+    background-color: #ff6464;
+    border-color: #ff9494;
+}
+
+button.verAhora1:active{
+    padding: 0.2em;
+}
+
+h4.farFromHome {
+    display: inline-block;
+    margin: 10px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+    margin-left: 25%;
+}
+
+iframe.youtube2 {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
+button.verAhora2 {
+    display: inline-block;
+    text-align: center;
+    border-color: #ff5858;
+    background-color:#ff9898;
+    margin-left: 35%;
+}
+
+button.verAhora2 a {
+    text-decoration: none;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+
+button.verAhora2:hover{
+    background-color: #ff6464;
+    border-color: #ff9494;
+}
+
+button.verAhora2:active{
+    padding: 0.2em;
+}
+
+/* END CONTAINERS 1-2 */
+
+/* FOOTER */
+
+.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color:rgb(3, 1, 1);
+    font-family: 'Lexend Peta', sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #ff5858;
+    display: block;
+    position: relative;
+    top: 500px;
+    left: 0px;
+    right: 100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+    
+ul.socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+ul.socialMedia li a{
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* END FOOTER */
+
+/* MARVEL PAGE */
+/* HEADER */
+
+header.headerMarvel{
+    display: block;
+    background-color: #ff5858;
+    position: fixed;
+    padding: 30px;
+    top: 40;
+    width: 100%;
+    z-index: 1;
+}
+
+header nav.navMarvel{
+    text-align: left;
+    display:inline-block;
+    width:60%;
+}
+
+header ul.ulMarvel li{
+    display: inline-block;
+}
+
+header ul.ulMarvel li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+header ul.ulMarvel li a:hover{
+    background-color: #facaca;
+    border-color: #ff9898;
+}
+
+header ul.ulMarvel li a:active{
+    padding: 0.2em;
+}
+
+/* MARVEL TITLE */
+
+h1.h1Marvel {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 50px;
+    left: 50%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+/* END MARVEL TITLE */
+
+/* HISTORIA MARVEL */
+
+div.historiaMarvel {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    right: 60%;
+    bottom: 190px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+h2.tituloHistoria {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+
+h4.textoHistoria {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+/* END HISTORIA MARVEL */
+
+/* JUEGOS MARVEL */
+
+div.juegosMarvel {
+    display: block;
+    position: absolute;
+    top: 150px;
+    left: 600px;
+    right: 50px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+div.juegosMarvel h2 {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+
+h1.h1Juegos {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+
+h4.textoJuegos {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin: 5px;
+}
+
+button.comprarJuego{
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffbebe;
+    border-color: #facaca;
+}
+
+button.comprarJuego a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+button.comprarJuego:hover{
+    background-color: #facaca;
+    border-color: #ff9898;
+}
+
+button.comprarJuego:active{
+    padding: 0.2em;
+}
+
+div.juegosMarvel h3.verJuegos a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+div.comicsMarvel {
+    display: block;
+    position: absolute;
+    top: 600px;
+    left: 50px;
+    right: 800px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+div.comicsMarvel h2.tituloComics {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+
+h4.textoComics {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin: 10px;
+}
+
+h3.h3Comics a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+/* END COMICS */
+
+/* DISNEY PLUS */
+
+div.disneyPlus {
+    display: block;
+    position: absolute;
+    top: 1000px;
+    left: 50px;
+    right: 800px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+div.disneyPlus h2 {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+
+div.disneyPlus h4 a{
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin: 10px;
+}
+
+/* END DISNEY PLUS  */
+
+/* SONY PICTURES */
+
+div.sonyPictures {
+    display: block;
+    position: absolute;
+    top: 900px;
+    left: 600px;
+    right: 50px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+div.sonyPictures h2 {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+div.sonyPictures h4 a{
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin-bottom: 20px;
+}
+
+div.sonyPictures ul li {
+    list-style-type: none;
+}
+div.sonyPictures ul li a {
+    font-family: 'Lexend Peta', sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+    margin: 20px;
+}
+
+
+
+footer div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+    font-family: 'Lexend Peta', sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+
+footer{
+    background-color: #ff5858;
+    display: block;
+    position: relative;
+    top: 1500px;
+    left: 0px;
+    bottom: 0;
+    right: 100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+    
+ul.socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+ul.socialMedia li a{
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* END FOOTER */
+/* END MARVEL */
+
+/* PELÍCULAS */
+
+/* HEADER */
+
+header.headerPeli{
+    display: block;
+    background-color: #ff5858;
+    position: fixed;
+    padding: 30px;
+    top: 40;
+    width: 100%;
+    z-index: 1;
+}
+
+header nav.navPeli{
+    text-align: left;
+    display:inline-block;
+    width:60%;
+}
+
+header ul.ulPeli li{
+    display: inline-block;
+}
+
+header ul.ulPeli li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+header ul.ulPeli li a:hover{
+    background-color: #facaca;
+    border-color: #ff9898;
+}
+
+header ul.ulPeli li a:active{
+    padding: 0.2em;
+}
+
+/* END HEADER */
+
+/* TITLES PELICULAS */
+
+h2.tituloPeli {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 50px;
+    left: 50%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+h4.subtitulo {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 150px;
+    left: 30%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 30px;
+}
+
+/* END TITLES */
+
+/* TABLE */
+
+main table {
+    display: block;
+    position: absolute;
+    background-color: #ff6464;
+    top: 300px;
+    left: 100px;
+    right: 30px;
+    margin: 30px;
+    padding: 5px;
+    border-color: #181829;
+}
+
+main table tbody {
+    font-size: 15px;
+    color: #121212;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    font-weight: bold;
+    text-align: center;
+}
+/* END TABLE */
+/* FOOTER PELI */
+
+footer div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+    font-family: 'Lexend Peta', sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+
+#footerPeli{
+    background-color: #ff5858;
+    display: block;
+    position: relative;
+    top: 2300px;
+    left: 0px;
+    bottom: 0px;
+    right: 100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+    
+ul.socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+ul.socialMedia li a{
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* END FOOTER */
+
+/* CONTACTO PAGE */
+
+/* HEADER */
+
+header.headerContacto{
+    display: block;
+    background-color: #ff5858;
+    position: fixed;
+    padding: 30px;
+    top: 40;
+    width: 100%;
+    z-index: 1;
+}
+
+header nav.navContacto{
+    text-align: left;
+    display:inline-block;
+    width:60%;
+}
+
+header ul.ulContacto li{
+    display: inline-block;
+}
+
+header ul.ulContacto li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+header ul.ulContacto li a:hover{
+    background-color: #facaca;
+    border-color: #ff9898;
+}
+
+header ul.ulContacto li a:active{
+    padding: 0.2em;
+}
+
+/* END HEADER */
+/* MAIN FORM */
+h2.tituloContacto {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 50px;
+    left: 35%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+h3.subtituloContacto-1 {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 130px;
+    left: 15%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+h4.subtituloContacto-2 {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 190px;
+    left: 23%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+form fieldset {
+    display: block;
+    position: absolute;
+    top: 300px;
+    left: 150px;
+    bottom: -400px;
+    right: 150px;
+    background-color: #ff5858;
+    border-color: #141429;
+}
+
+form fieldset legend {
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+input.nombre {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    width: 300px;
+    height: 35px;
+}
+input.apellido {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    width: 300px;
+    height: 35px;
+}
+input.email {
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 40%;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    width: 300px;
+    height: 35px;
+}
+input.contraseña {
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    text-align: center;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    width: 300px;
+    height: 35px;
+}
+
+#elegirPelicula {
+    display: block;
+    position: absolute;
+    top: 230px;
+    left: 40%;
+    text-align: center;
+    background-color: #ffbebe;
+    box-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    width: 300px;
+    height: 35px;
+}
+
+#img {
+    display: block;
+    position: absolute;
+    top: 280px;
+    left: 15%;
+    text-align: center;
+    width: 300px;
+    height: 35px;
+}
+
+#comentario {
+    display: block;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    text-align: center;
+}
+
+div.tipoAporte {
+    display: block;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+div.checkbox {
+    display: block;
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+}
+
+button.limpiar {
+    display: block;
+    position: absolute;
+    top: 530px;
+    left: 55%;
+    text-align: center;
+    border-color: #ff5858;
+    background-color:#ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    font-weight: bold;   
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+    
+button.limpiar:hover{
+    background-color: #ff6464;
+    border-color: #ff9494;
+}
+    
+button.limpiar:active{
+    padding: 0.2em;
+}
+button.enviar {
+    display: block;
+    position: absolute;
+    top: 530px;
+    left: 70%;
+    text-align: center;
+    border-color: #ff5858;
+    background-color:#ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+    
+button.enviar:hover{
+    background-color: #ff6464;
+    border-color: #ff9494;
+}
+    
+button.enviar:active{
+    padding: 0.2em;
+}
+
+/* END MAIN FORM */
+
+/* FOOTER CONTACTO */
+
+
+footer div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+    font-family: 'Lexend Peta', sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+
+#footerContacto{
+    background-color: #ff5858;
+    display: block;
+    position: relative;
+    top: 2300px;
+    left: 0px;
+    bottom: 0px;
+    right: 100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+    
+ul.socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+ul.socialMedia li a{
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+/* END FOOTER CONTACTO */
+
+/* BLOGS */
+
+/* HEADER */
+
+header.headerBlogs{
+    display: block;
+    background-color: #ff5858;
+    position: fixed;
+    padding: 30px;
+    top: 40;
+    width: 100%;
+    z-index: 1;
+}
+
+header nav.navBlogs{
+    text-align: left;
+    display:inline-block;
+    width:60%;
+}
+
+header ul.ulBlogs li{
+    display: inline-block;
+}
+
+header ul.ulBlogs li a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 10px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 30%);
+}
+
+header ul.ulBlogs li a:hover{
+    background-color: #facaca;
+    border-color: #ff9898;
+}
+
+header ul.ulBlogs li a:active{
+    padding: 0.2em;
+}
+/* END HEADER */
+
+/* MAIN */
+
+/* TITULOS */
+
+h2.tituloBlogs {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 50px;
+    left: 40%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 50px;
+}
+
+
+h2.subtituloBlogs-1 {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 130px;
+    left: 10%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+h3.subtituloBlogs-2 {
+    display: inline-block;
+    position: absolute;
+    color: white;
+    text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+    top: 190px;
+    left: 25%;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+/* END TITULOS */
+
+/* DIV BLOGS */
+
+div.spWiki {
+    display: block;
+    position: absolute;
+    top: 450px;
+    left: 200px;
+    right: 50%;
+    bottom: 0px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+div.spFacebook {
+    display: block;
+    position: absolute;
+    top: 680px;
+    left: 700px;
+    right: 200px;
+    bottom: -200px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+div.superHeroes {
+    display: block;
+    position: absolute;
+    top: 900px;
+    left: 200px;
+    bottom: -500px;
+    right: 50%;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+div.enTumblr {
+    display: block;
+    position: absolute;
+    top: 1200px;
+    left: 700px;
+    right: 200px;
+    bottom: -800px;
+    background-color: #ff5858;
+    padding: 40px;
+    text-align: center;
+}
+
+main.mainBlog div h4 {
+    display: block;
+    margin: 10px; 
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+
+main.mainBlog div button {
+    display: block;
+    float: right;
+    text-align: center;
+    border-color: #ff5858;
+    background-color:#ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+    
+main.mainBlog div button:hover{
+    background-color: #ff6464;
+    border-color: #ff9494;
+}
+    
+main.mainBlog div button:active{
+    padding: 0.2em;
+}
+
+main.mainBlog div button a {
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: 0 0 8px rgb(0 0 0 / 50%);
+}
+
+/* END DIV BLOGS */
+
+/* END MAIN */
+
+/* FOOTER */
+
+
+footer div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color:rgb(255, 255, 255);
+    font-family: 'Lexend Peta', sans-serif;
+    font-size:20px;
+    text-align: center;
+}
+
+footer.footerBlogs{
+    background-color: #ff5858;
+    display: block;
+    position: relative;
+    top: 1800px;
+    left: 0px;
+    bottom: 0px;
+    right: 100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+}
+    
+ul.socialMedia{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%;
+}
+
+ul.socialMedia li a{
+    text-decoration: none;
+    box-shadow: 0 0 15px rgb(0 0 0 / 40%);
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+/* END FOOTER */

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPIDER-MAN</title>
+    <link rel="shortcut icon" href="../spiderman.png">
+    <link rel="stylesheet" href="../styles.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header class="headerContacto">
+    <nav class="navContacto">
+        <ul class="ulContacto">
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./marvel.html">Marvel</a></li>
+            <li><a href="./peliculas.html">Películas</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+            <li><a href="./blogs.html">Blogs</a></li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="animate__animated animate__slideInDown tituloContacto">CONTACTO</h2>
+        <div>
+            <h3 class=" animate__animated animate__slideInDown subtituloContacto-1">¿Tienes alguna duda o teoría para compartir con nosotros?</h3>
+            <h4 class=" animate__animated animate__slideInDown subtituloContacto-2">¡Deja tu opinión aquí para que podamos leerte!</h4>
+        <form action="contacto">
+            <fieldset>
+                <legend >Completa el formulario para saber tu opinión</legend>
+                <input type="text" class="nombre" name="Nombre" placeholder="Nombre">
+                <input type="text" class="apellido" name="Apellido" placeholder="Apellido">
+                <input type="text" class="email" name="email" placeholder="Ingresa tu email" required>
+                <input type="password" class="contraseña" name="contraseña" placeholder="Contraseña" required>
+            <select name="pelicula" id="elegirPelicula">
+                <option value hidden selected>Elige una película</option>
+                <option value="2002">Spider-Man</option>
+                <option value="2004">Spider-Man 2</option>
+                <option value="2007">Spider-Man 3</option>
+                <option value="2012">The Amazing Spider-Man</option>
+                <option value="2014">The Amazing Spider-Man 2</option>
+                <option value="2016">Captain America: Civil War</option>
+                <option value="2017">Spider-Man: Homecoming</option>
+                <option value="2018">Avengers: Infinity War</option>
+                <option value="2019">Avengers: EndGame</option>
+                <option value="ffh2019">Spider-Man: Far From Home</option>
+                <option value="2021">Spider-Man: No Way Home</option>
+            </select>
+            <div class="checkbox">
+                <label for="foro">¿Deseas incluír tu comentario en nuestro foro?</label>
+                <input type="checkbox" name="foro" id="foro" value="foro"> <br>
+                <label for="newsletter">¿Quieres suscribirte a nuestro newsletter?</label>
+                <input type="checkbox" name="newsletter" id="newsletter value="newsletter">
+            </div>
+            <div class="tipoAporte"> 
+                <h4>Tipo de aporte</h4>
+                <label for="consulta">Pregunta</label>
+                <input type="radio" name="consulta" id="consulta>
+                <label for="teoria">Teoría</label>
+                <input type="radio" name="teoria" id="teoria>
+                <label for="meme">Diversión</label>
+                <input type="radio" name="meme" id="meme">
+            </div>
+            <input type="file" name="archivos" id="img">
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="¡Deja tu comentario aquí!"></textarea>
+            <button type="reset" class="limpiar">Limpiar todo</button>
+            <button type="submit" class="enviar">Enviar</button>
+            </div>
+        </fieldset>
+    </form>
+    </main>
+    <footer class="footerContacto"> 
+        <div>
+        <nav class="navContacto">
+            <h4 class="footerTitle">No te pierdas de las actualizaciones de Marvel</h4>
+            <ul class="socialMedia">
+                <li><a href="https://www.facebook.com/Marvel"><img src="../multimedia/facebook.png" alt="Facebook PNG" width="25" height="25"></a></li>
+                <li><a href="https://twitter.com/marvel"><img src="../multimedia/twitter.png" alt="Twitter PNG" width="25" height="25"></a></li>
+                <li><a href="https://www.instagram.com/marvel/"><img src="../multimedia/instagram.png" alt="Instagram PNG" width="25" height="25"></a></li>
+                <li><a href="https://marvelentertainment.tumblr.com/"><img src="../multimedia/tumblr.png" alt="Tumblr PNG" width="25" height="25"></a></li>
+                <li><a href="https://www.youtube.com/marvel"><img src="../multimedia/youtube.png" alt="Youtube PNG" width="25" height="25"></a></li>
+                <li><a href="https://www.snapchat.com/add/marvelhq"><img src="../multimedia/snapchat.png" alt="Snapchat PNG" width="25" height="25"></a></li>
+                <li><a href="https://www.pinterest.com/marvelofficial"><img src="../multimedia/pinterest.png" alt="Pinterest PNG" width="25" height="25"></a></li>
+            </ul>
+        </nav>
+        </div>
+    </footer>
+</body>
+</html>
