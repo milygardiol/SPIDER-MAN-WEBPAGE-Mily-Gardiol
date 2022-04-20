@@ -131,9 +131,9 @@ button.watchNow:active{
 
 /* CONTAINERS 1-2 */
 div.container-2 {
-    display: block;
-    background-color: #ff5858;
-    padding: 10px;
+     display: block; 
+     background-color: #ff5858;
+    padding: 10px; 
     position: absolute;
     top: 570px;
     left: 200px;
@@ -237,6 +237,17 @@ button.verAhora2:active{
 }
 
 /* END CONTAINERS 1-2 */
+/* Carrousel */
+
+#carouselExampleSlidesOnly {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 40%;
+    align-content: center;
+}
+
+/* End carrousel */
 
 /* FOOTER */
 
@@ -290,8 +301,8 @@ header.headerMarvel{
     display: block;
     background-color: #ff5858;
     position: fixed;
-    padding: 30px;
-    top: 40;
+    padding: 20px;
+    top: 20;
     width: 100%;
     z-index: 1;
 }
