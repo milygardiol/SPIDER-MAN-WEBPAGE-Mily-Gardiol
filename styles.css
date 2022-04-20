@@ -636,8 +636,8 @@ header.headerPeli{
     display: block;
     background-color: #ff5858;
     position: fixed;
-    padding: 30px;
-    top: 40;
+    padding: 20px;
+    top: 30;
     width: 100%;
     z-index: 1;
 }
@@ -674,6 +674,7 @@ header ul.ulPeli li a:active{
 /* END HEADER */
 
 /* TITLES PELICULAS */
+
 
 h2.tituloPeli {
     display: inline-block;
@@ -729,6 +730,10 @@ main table tbody {
     text-align: center;
 }
 /* END TABLE */
+
+
+
+
 /* FOOTER PELI */
 
 footer div nav h4.footerTitle {
@@ -745,7 +750,7 @@ footer div nav h4.footerTitle {
     background-color: #ff5858;
     display: block;
     position: relative;
-    top: 2300px;
+    top: 3000px;
     left: 0px;
     bottom: 0px;
     right: 100%;
@@ -783,8 +788,8 @@ header.headerContacto{
     display: block;
     background-color: #ff5858;
     position: fixed;
-    padding: 30px;
-    top: 40;
+    padding: 20px;
+    top: 30;
     width: 100%;
     z-index: 1;
 }
@@ -820,6 +825,12 @@ header ul.ulContacto li a:active{
 
 /* END HEADER */
 /* MAIN FORM */
+div.card {
+    position: absolute;
+    top: 950px;
+    left: 200px;
+}
+
 h2.tituloContacto {
     display: inline-block;
     position: absolute;
@@ -1093,8 +1104,8 @@ header.headerBlogs{
     display: block;
     background-color: #ff5858;
     position: fixed;
-    padding: 30px;
-    top: 40;
+    padding: 20px;
+    top: 30;
     width: 100%;
     z-index: 1;
 }
