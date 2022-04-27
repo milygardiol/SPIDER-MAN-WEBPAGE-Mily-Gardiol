@@ -1,0 +1,212 @@
+/* CONTACTO MAIN */
+main {
+    h2.tituloContacto {
+        display: inline-block;
+        position: absolute;
+        color: white;
+        text-shadow: $sombraTitulos;
+        top: 50px;
+        left: 35%;
+        margin: 30px;
+        padding: 10px;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+    div{
+        h3.subtituloContacto-1 {
+            display: inline-block;
+            position: absolute;
+            color: white;
+            text-shadow: $sombraTitulos;
+            top: 130px;
+            left: 15%;
+            margin: 30px;
+            padding: 10px;
+            font-family: 'Lexend Peta', sans-serif;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+        h4.subtituloContacto-2 {
+            display: inline-block;
+            position: absolute;
+            color: white;
+            text-shadow: $sombraTitulos;
+            top: 190px;
+            left: 23%;
+            margin: 30px;
+            padding: 10px;
+            font-family: 'Lexend Peta', sans-serif;
+            letter-spacing: 5px;
+            font-size: 20px;
+        }
+        form fieldset {
+            display: block;
+            position: absolute;
+            top: 300px;
+            left: 150px;
+            bottom: -400px;
+            right: 150px;
+            background-color: #ff5858;
+            border-color: #141429;
+            legend {
+                display: inline-block;
+                margin: 30px;
+                padding: 10px;
+                font-family: 'Lexend Peta', sans-serif;
+                letter-spacing: 4px;
+                font-size: 23px;
+                font-weight: bold;
+                color: white;
+                text-shadow: $sombraTitulos;
+            }
+            input.nombre {
+                display: block;
+                position: absolute;
+                top: 30px;
+                left: 40%;
+                text-align: center;
+                box-shadow: $sombraTitulos;
+                width: 300px;
+                height: 35px;
+            }
+            input.apellido {
+                display: block;
+                position: absolute;
+                top: 80px;
+                left: 40%;
+                text-align: center;
+                box-shadow: $sombraTitulos;
+                width: 300px;
+                height: 35px;
+            }
+            input.email {
+                display: block;
+                position: absolute;
+                top: 130px;
+                left: 40%;
+                text-align: center;
+                box-shadow: $sombraTitulos;
+                width: 300px;
+                height: 35px;
+            }
+            input.contraseña {
+                display: block;
+                position: absolute;
+                top: 180px;
+                left: 40%;
+                text-align: center;
+                box-shadow: $sombraTitulos;
+                width: 300px;
+                height: 35px;
+            }
+            #elegirPelicula {
+                display: block;
+                position: absolute;
+                top: 230px;
+                left: 40%;
+                text-align: center;
+                background-color: #ffbebe;
+                box-shadow: $sombraTitulos;
+                width: 300px;
+                height: 35px;
+            }
+            div.checkbox {
+                display: block;
+                position: absolute;
+                top: 380px;
+                left: 50%;
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 20px;
+                font-family: 'Lexend Peta', sans-serif;
+                letter-spacing: 4px;
+                font-size: 15px;
+                font-weight: bold;
+                color: white;
+                text-shadow: $sombraTitulos;
+            }
+            div.tipoAporte {
+                display: block;
+                position: absolute;
+                top: 330px;
+                left: 50%;
+                margin-left: 10px;
+                margin-right: 10px;
+                padding: 20px;
+                font-family: 'Lexend Peta', sans-serif;
+                letter-spacing: 4px;
+                font-size: 15px;
+                font-weight: bold;
+                color: white;
+                text-shadow: $sombraTitulos;
+            }
+            #img {
+                display: block;
+                position: absolute;
+                top: 280px;
+                left: 15%;
+                text-align: center;
+                width: 300px;
+                height: 35px;
+            }
+            
+            #comentario {
+                display: block;
+                position: absolute;
+                top: 330px;
+                left: 15%;
+                text-align: center;
+            }            
+            button.limpiar {
+                display: block;
+                position: absolute;
+                top: 530px;
+                left: 55%;
+                text-align: center;
+                border-color: #ff5858;
+                background-color:#ff9898;
+                font-family: 'Lexend Peta', sans-serif;
+                font-size: 17px;
+                font-weight: bold;   
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                text-shadow: $sombraPrincipal;
+                &:hover{
+                    background-color: #ff6464;
+                    border-color: #ff9494;
+                }
+                &:active{
+                    padding: 0.2em;
+                }
+            }
+            button.enviar {
+                display: block;
+                position: absolute;
+                top: 530px;
+                left: 70%;
+                text-align: center;
+                border-color: #ff5858;
+                background-color:#ff9898;
+                font-family: 'Lexend Peta', sans-serif;
+                font-size: 17px;
+                font-weight: bold;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                text-shadow: $sombraPrincipal;
+                &:hover{
+                    background-color: #ff6464;
+                    border-color: #ff9494;
+                }
+                &:active{
+                    padding: 0.2em;
+                }
+            }
+        }
+    }
+    div.card {
+        position: absolute;
+        top: 950px;
+        left: 200px;
+    }
+}

@@ -1,0 +1,1119 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: #141429; }
+
+/* VARIABLES */
+/* INDEX */
+/* ESTILOS HEADER */
+header.headerIndex {
+  display: block;
+  background-color: #ff5858;
+  position: fixed;
+  padding: 30px;
+  top: 40;
+  width: 100%;
+  z-index: 1; }
+  header.headerIndex nav {
+    text-align: left;
+    display: inline-block;
+    width: 60%; }
+    header.headerIndex nav ul li {
+      display: inline-block; }
+      header.headerIndex nav ul li a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 4px;
+        /* text-shadow: 0 0 8px rgb(0 0 0 / 30%); */ }
+        header.headerIndex nav ul li a:hover {
+          background-color: #facaca;
+          border-color: #ff9898; }
+        header.headerIndex nav ul li a:active {
+          padding: 0.2em; }
+
+/* MAIN */
+main .mainIndex {
+  background-image: url("./multimedia/SP-nowayhome.jpg");
+  display: block;
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  background-position: center; }
+  main .mainIndex div.container-1 {
+    display: inline-block;
+    font-family: 'Lexend Peta', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33.6px;
+    font-style: normal;
+    letter-spacing: 0;
+    margin-top: 60px;
+    margin-bottom: 24px;
+    color: #fff;
+    margin: 15%;
+    text-shadow: #000005; }
+    main .mainIndex div.container-1 h4.title1 {
+      margin-left: 45px;
+      margin-bottom: 15px; }
+    main .mainIndex div.container-1 h4.title2 {
+      font-size: 50px; }
+    main .mainIndex div.container-1 h4.title3 {
+      margin-left: 55px;
+      margin-top: 15px; }
+    main .mainIndex div.container-1 h5.textP {
+      font-size: 18px;
+      margin-top: 10px; }
+    main .mainIndex div.container-1 button.watchNow {
+      display: inline-block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898; }
+    main .mainIndex div.container-1 button.watchNow a {
+      display: inline-block;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 17px;
+      color: black;
+      padding: 10px;
+      text-shadow: #000005; }
+      main .mainIndex div.container-1 button.watchNow a:hover {
+        background-color: #ff6464;
+        border-color: #ff9494; }
+      main .mainIndex div.container-1 button.watchNow a:active {
+        padding: 0.2em; }
+  main .mainIndex div.container-2 {
+    display: block;
+    background-color: #ff5858;
+    padding: 10px;
+    position: absolute;
+    top: 570px;
+    left: 200px; }
+    main .mainIndex div.container-2 h4.homecoming {
+      display: inline-block;
+      margin: 10px;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 25px;
+      text-align: center;
+      color: #fff;
+      text-shadow: #000005;
+      margin-left: 30%; }
+    main .mainIndex div.container-2 iframe.youtube1 {
+      display: block;
+      text-align: center;
+      margin: 10px; }
+    main .mainIndex div.container-2 button.verAhora1 {
+      display: inline-block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      margin-left: 35%; }
+      main .mainIndex div.container-2 button.verAhora1 a {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Roboto Mono', monospace;
+        font-size: 17px;
+        color: black;
+        padding: 10px;
+        text-shadow: #000005; }
+        main .mainIndex div.container-2 button.verAhora1 a:hover {
+          background-color: #ff6464;
+          border-color: #ff9494; }
+        main .mainIndex div.container-2 button.verAhora1 a:active {
+          padding: 0.2em; }
+  main .mainIndex div.container-3 {
+    display: block;
+    background-color: #ff5858;
+    padding: 10px;
+    position: absolute;
+    top: 570px;
+    right: 200px; }
+    main .mainIndex div.container-3 h4.farFromHome {
+      display: inline-block;
+      margin: 10px;
+      font-family: 'Roboto Mono', monospace;
+      font-size: 25px;
+      text-align: center;
+      color: #fff;
+      text-shadow: #000005;
+      margin-left: 25%; }
+    main .mainIndex div.container-3 iframe.youtube2 {
+      display: block;
+      text-align: center;
+      margin: 10px; }
+    main .mainIndex div.container-3 button.verAhora2 {
+      display: inline-block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      margin-left: 35%; }
+      main .mainIndex div.container-3 button.verAhora2 a {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Lexend Peta', sans-serif;
+        font-size: 17px;
+        font-weight: bold;
+        color: black;
+        padding: 10px;
+        text-shadow: #000005; }
+        main .mainIndex div.container-3 button.verAhora2 a:hover {
+          background-color: #ff6464;
+          border-color: #ff9494; }
+        main .mainIndex div.container-3 button.verAhora2 a:active {
+          padding: 0.2em; }
+  main .mainIndex #carouselExampleSlidesOnly {
+    position: absolute;
+    top: 1000px;
+    width: 100%;
+    height: 40%;
+    align-content: center; }
+
+/* FOOTER */
+footer {
+  background-color: #ff5858;
+  display: block;
+  position: relative;
+  top: 500px;
+  left: 0px;
+  right: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  overflow: auto; }
+  footer div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: #030101;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 20px;
+    text-align: center; }
+  footer div nav ul.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%; }
+    footer div nav ul.socialMedia li a {
+      text-decoration: none;
+      /*  box-shadow: 0 0 15px rgb(0 0 0 / 40%); */
+      height: 50px;
+      width: 50px;
+      border-radius: 50%; }
+
+/* END INDEX */
+/* PÁGINAS ANEXAS */
+/* MARVEL */
+header.headerMarvel {
+  display: block;
+  background-color: #ff5858;
+  position: fixed;
+  padding: 20px;
+  top: 20;
+  width: 100%;
+  z-index: 1; }
+  header.headerMarvel nav.navMarvel {
+    text-align: left;
+    display: inline-block;
+    width: 60%; }
+    header.headerMarvel nav.navMarvel ul.ulMarvel li {
+      display: inline-block; }
+      header.headerMarvel nav.navMarvel ul.ulMarvel li a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 4px;
+        text-shadow: #000005; }
+        header.headerMarvel nav.navMarvel ul.ulMarvel li a:hover {
+          background-color: #facaca;
+          border-color: #ff9898; }
+        header.headerMarvel nav.navMarvel ul.ulMarvel li a:active {
+          padding: 0.2em; }
+
+/* MARVEL MAIN */
+/* MARVEL TITLE */
+main h1.h1Marvel {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
+  top: 50px;
+  left: 50%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px; }
+
+main div.historiaMarvel {
+  display: block;
+  position: absolute;
+  top: 100px;
+  left: 50px;
+  right: 60%;
+  bottom: 190px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.historiaMarvel h2.tituloHistoria {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: #000005;
+    margin-bottom: 20px; }
+  main div.historiaMarvel h4.textoHistoria {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: #000005; }
+
+main div.juegosMarvel {
+  display: block;
+  position: absolute;
+  top: 150px;
+  left: 600px;
+  right: 50px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.juegosMarvel h2 {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: #000005;
+    margin-bottom: 20px; }
+  main div.juegosMarvel h1.h1Juegos {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: #000005;
+    margin-bottom: 20px; }
+  main div.juegosMarvel h4.textoJuegos {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: #000005;
+    margin: 5px; }
+  main div.juegosMarvel button.comprarJuego {
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffbebe;
+    border-color: #facaca; }
+    main div.juegosMarvel button.comprarJuego a {
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 4px;
+      text-shadow: #000005; }
+      main div.juegosMarvel button.comprarJuego a:hover {
+        background-color: #facaca;
+        border-color: #ff9898; }
+      main div.juegosMarvel button.comprarJuego a:active {
+        padding: 0.2em; }
+  main div.juegosMarvel h3.verJuegos a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: #000005; }
+
+main div.comicsMarvel {
+  display: block;
+  position: absolute;
+  top: 600px;
+  left: 50px;
+  right: 800px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.comicsMarvel h2.tituloComics {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: #000005;
+    margin-bottom: 20px; }
+  main div.comicsMarvel h4.textoComics {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: #000005;
+    margin: 10px; }
+  main div.comicsMarvel h3.h3Comics a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    text-shadow: #000005; }
+
+main div.disneyPlus {
+  display: block;
+  position: absolute;
+  top: 1000px;
+  left: 50px;
+  right: 800px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.disneyPlus h2 {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: #000005;
+    margin-bottom: 20px; }
+  main div.disneyPlus h4 a {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #fff;
+    text-shadow: #000005;
+    margin: 10px; }
+
+main div.sonyPictures {
+  display: block;
+  position: absolute;
+  top: 900px;
+  left: 600px;
+  right: 50px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.sonyPictures h2 {
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: #fff;
+    text-shadow: #000005;
+    margin-bottom: 20px; }
+  main div.sonyPictures h4 a {
+    font-family: 'Lexend Peta', sans-serif;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 20px;
+    color: #fff;
+    text-shadow: #000005;
+    margin-bottom: 20px; }
+  main div.sonyPictures ul li {
+    list-style-type: none; }
+    main div.sonyPictures ul li a {
+      font-family: 'Lexend Peta', sans-serif;
+      display: inline-block;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-size: 20px;
+      color: #fff;
+      text-shadow: #000005;
+      margin: 20px; }
+
+/* FOOTER */
+footer {
+  background-color: #ff5858;
+  display: block;
+  position: relative;
+  top: 1500px;
+  left: 0px;
+  bottom: 0;
+  right: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  overflow: auto; }
+  footer div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 20px;
+    text-align: center; }
+  footer div nav ul.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%; }
+    footer div nav ul.socialMedia li a {
+      text-decoration: none;
+      box-shadow: #000005;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%; }
+
+/* END MARVEL */
+/* PELICULAS */
+/* HEADER PELICULAS */
+header.headerPeli {
+  display: block;
+  background-color: #ff5858;
+  position: fixed;
+  padding: 20px;
+  top: 30;
+  width: 100%;
+  z-index: 1; }
+  header.headerPeli nav.navPeli {
+    text-align: left;
+    display: inline-block;
+    width: 60%; }
+    header.headerPeli nav.navPeli ul.ulPeli li {
+      display: inline-block; }
+      header.headerPeli nav.navPeli ul.ulPeli li a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 4px;
+        text-shadow: #000005; }
+        header.headerPeli nav.navPeli ul.ulPeli li a:hover {
+          background-color: #facaca;
+          border-color: #ff9898; }
+        header.headerPeli nav.navPeli ul.ulPeli li a:active {
+          padding: 0.2em; }
+
+/* END HEADER PELICULAS */
+/* PELIS MAIN */
+main div h2.tituloPeli {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 50px;
+  left: 50%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px; }
+
+main div h4.subtitulo {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 150px;
+  left: 30%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 30px; }
+
+main table {
+  display: block;
+  position: absolute;
+  background-color: #ff6464;
+  top: 300px;
+  left: 100px;
+  right: 30px;
+  margin: 30px;
+  padding: 5px;
+  border-color: #181829; }
+  main table tbody {
+    font-size: 15px;
+    color: #121212;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 5px;
+    text-shadow: white;
+    font-weight: bold;
+    text-align: center; }
+
+/* FOOTER PELI */
+#footerPeli {
+  background-color: #ff5858;
+  display: block;
+  position: relative;
+  top: 3000px;
+  left: 0px;
+  bottom: 0px;
+  right: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  overflow: auto; }
+  #footerPeli div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 20px;
+    text-align: center; }
+  #footerPeli div nav ul.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%; }
+    #footerPeli div nav ul.socialMedia li a {
+      text-decoration: none;
+      box-shadow: black;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%; }
+
+/* END PELICULAS */
+/* CONTACTO */
+/* CONTACTO HEADER */
+header.headerContacto {
+  display: block;
+  background-color: #ff5858;
+  position: fixed;
+  padding: 20px;
+  top: 30;
+  width: 100%;
+  z-index: 1; }
+  header.headerContacto nav.navContacto {
+    text-align: left;
+    display: inline-block;
+    width: 60%; }
+    header.headerContacto nav.navContacto ul.ulContacto li {
+      display: inline-block; }
+      header.headerContacto nav.navContacto ul.ulContacto li a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 4px;
+        text-shadow: black; }
+        header.headerContacto nav.navContacto ul.ulContacto li a:hover {
+          background-color: #facaca;
+          border-color: #ff9898; }
+        header.headerContacto nav.navContacto ul.ulContacto li a:active {
+          padding: 0.2em; }
+
+/* CONTACTO MAIN */
+main h2.tituloContacto {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 50px;
+  left: 35%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px; }
+
+main div h3.subtituloContacto-1 {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 130px;
+  left: 15%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px; }
+
+main div h4.subtituloContacto-2 {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 190px;
+  left: 23%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px; }
+
+main div form fieldset {
+  display: block;
+  position: absolute;
+  top: 300px;
+  left: 150px;
+  bottom: -400px;
+  right: 150px;
+  background-color: #ff5858;
+  border-color: #141429; }
+  main div form fieldset legend {
+    display: inline-block;
+    margin: 30px;
+    padding: 10px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+    text-shadow: white; }
+  main div form fieldset input.nombre {
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 40%;
+    text-align: center;
+    box-shadow: white;
+    width: 300px;
+    height: 35px; }
+  main div form fieldset input.apellido {
+    display: block;
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    text-align: center;
+    box-shadow: white;
+    width: 300px;
+    height: 35px; }
+  main div form fieldset input.email {
+    display: block;
+    position: absolute;
+    top: 130px;
+    left: 40%;
+    text-align: center;
+    box-shadow: white;
+    width: 300px;
+    height: 35px; }
+  main div form fieldset input.contraseña {
+    display: block;
+    position: absolute;
+    top: 180px;
+    left: 40%;
+    text-align: center;
+    box-shadow: white;
+    width: 300px;
+    height: 35px; }
+  main div form fieldset #elegirPelicula {
+    display: block;
+    position: absolute;
+    top: 230px;
+    left: 40%;
+    text-align: center;
+    background-color: #ffbebe;
+    box-shadow: white;
+    width: 300px;
+    height: 35px; }
+  main div form fieldset div.checkbox {
+    display: block;
+    position: absolute;
+    top: 380px;
+    left: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: white; }
+  main div form fieldset div.tipoAporte {
+    display: block;
+    position: absolute;
+    top: 330px;
+    left: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: white; }
+  main div form fieldset #img {
+    display: block;
+    position: absolute;
+    top: 280px;
+    left: 15%;
+    text-align: center;
+    width: 300px;
+    height: 35px; }
+  main div form fieldset #comentario {
+    display: block;
+    position: absolute;
+    top: 330px;
+    left: 15%;
+    text-align: center; }
+  main div form fieldset button.limpiar {
+    display: block;
+    position: absolute;
+    top: 530px;
+    left: 55%;
+    text-align: center;
+    border-color: #ff5858;
+    background-color: #ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-shadow: #000005; }
+    main div form fieldset button.limpiar:hover {
+      background-color: #ff6464;
+      border-color: #ff9494; }
+    main div form fieldset button.limpiar:active {
+      padding: 0.2em; }
+  main div form fieldset button.enviar {
+    display: block;
+    position: absolute;
+    top: 530px;
+    left: 70%;
+    text-align: center;
+    border-color: #ff5858;
+    background-color: #ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-shadow: #000005; }
+    main div form fieldset button.enviar:hover {
+      background-color: #ff6464;
+      border-color: #ff9494; }
+    main div form fieldset button.enviar:active {
+      padding: 0.2em; }
+
+main div.card {
+  position: absolute;
+  top: 950px;
+  left: 200px; }
+
+/* CONTACTO FOOTER */
+#footerContacto {
+  background-color: #ff5858;
+  display: block;
+  position: relative;
+  top: 2300px;
+  left: 0px;
+  bottom: 0px;
+  right: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  overflow: auto; }
+  #footerContacto div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 20px;
+    text-align: center; }
+  #footerContacto div nav ul.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%; }
+    #footerContacto div nav ul.socialMedia li a {
+      text-decoration: none;
+      box-shadow: black;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%; }
+
+/* END CONTACTO */
+/* BLOGS */
+/* BLOGS HEADER */
+header.headerBlogs {
+  display: block;
+  background-color: #ff5858;
+  position: fixed;
+  padding: 20px;
+  top: 30;
+  width: 100%;
+  z-index: 1; }
+  header.headerBlogs nav.navBlogs {
+    text-align: left;
+    display: inline-block;
+    width: 60%; }
+    header.headerBlogs nav.navBlogs ul.ulBlogs li {
+      display: inline-block; }
+      header.headerBlogs nav.navBlogs ul.ulBlogs li a {
+        color: black;
+        text-decoration: none;
+        padding: 10px;
+        font-weight: bold;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 4px;
+        text-shadow: black; }
+        header.headerBlogs nav.navBlogs ul.ulBlogs li a:hover {
+          background-color: #facaca;
+          border-color: #ff9898; }
+        header.headerBlogs nav.navBlogs ul.ulBlogs li a:active {
+          padding: 0.2em; }
+
+/* BLOGS MAIN */
+main h2.tituloBlogs {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 50px;
+  left: 40%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 50px; }
+
+main h2.subtituloBlogs-1 {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 130px;
+  left: 10%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px; }
+
+main h3.subtituloBlogs-2 {
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-shadow: white;
+  top: 190px;
+  left: 25%;
+  margin: 30px;
+  padding: 10px;
+  font-family: 'Lexend Peta', sans-serif;
+  letter-spacing: 5px;
+  font-size: 20px; }
+
+main div.spWiki {
+  display: block;
+  position: absolute;
+  top: 450px;
+  left: 200px;
+  right: 50%;
+  bottom: 0px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.spWiki h4 {
+    display: block;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #fff;
+    text-shadow: #000005; }
+  main div.spWiki button {
+    display: block;
+    float: right;
+    text-align: center;
+    border-color: #ff5858;
+    background-color: #ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-shadow: #000005; }
+    main div.spWiki button a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      text-shadow: #000005; }
+      main div.spWiki button a:hover {
+        background-color: #ff6464;
+        border-color: #ff9494; }
+      main div.spWiki button a:active {
+        padding: 0.2em; }
+
+main div.spFacebook {
+  display: block;
+  position: absolute;
+  top: 680px;
+  left: 700px;
+  right: 200px;
+  bottom: -200px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.spFacebook h4 {
+    display: block;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #fff;
+    text-shadow: #000005; }
+  main div.spFacebook button {
+    display: block;
+    float: right;
+    text-align: center;
+    border-color: #ff5858;
+    background-color: #ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-shadow: #000005; }
+    main div.spFacebook button a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      text-shadow: #000005; }
+      main div.spFacebook button a:hover {
+        background-color: #ff6464;
+        border-color: #ff9494; }
+      main div.spFacebook button a:active {
+        padding: 0.2em; }
+
+main div.superHeroes {
+  display: block;
+  position: absolute;
+  top: 900px;
+  left: 200px;
+  bottom: -500px;
+  right: 50%;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.superHeroes h4 {
+    display: block;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #fff;
+    text-shadow: #000005; }
+  main div.superHeroes button {
+    display: block;
+    float: right;
+    text-align: center;
+    border-color: #ff5858;
+    background-color: #ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-shadow: #000005; }
+    main div.superHeroes button a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      text-shadow: #000005; }
+      main div.superHeroes button a:hover {
+        background-color: #ff6464;
+        border-color: #ff9494; }
+      main div.superHeroes button a:active {
+        padding: 0.2em; }
+
+main div.enTumblr {
+  display: block;
+  position: absolute;
+  top: 1200px;
+  left: 700px;
+  right: 200px;
+  bottom: -800px;
+  background-color: #ff5858;
+  padding: 40px;
+  text-align: center; }
+  main div.enTumblr h4 {
+    display: block;
+    margin: 10px;
+    margin-bottom: 50px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+    color: #fff;
+    text-shadow: #000005; }
+  main div.enTumblr button {
+    display: block;
+    float: right;
+    text-align: center;
+    border-color: #ff5858;
+    background-color: #ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: black;
+    padding: 10px;
+    text-shadow: #000005; }
+    main div.enTumblr button a {
+      text-decoration: none;
+      color: black;
+      padding: 10px;
+      text-shadow: #000005; }
+      main div.enTumblr button a:hover {
+        background-color: #ff6464;
+        border-color: #ff9494; }
+      main div.enTumblr button a:active {
+        padding: 0.2em; }
+
+/* FOOTER BLOGS */
+footer.footerBlogs {
+  background-color: #ff5858;
+  display: block;
+  position: relative;
+  top: 1800px;
+  left: 0px;
+  bottom: 0px;
+  right: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 200px;
+  overflow: auto; }
+  footer.footerBlogs div nav h4.footerTitle {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 30px;
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 20px;
+    text-align: center; }
+  footer.footerBlogs div nav ul.socialMedia {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 100%; }
+    footer.footerBlogs div nav ul.socialMedia li a {
+      text-decoration: none;
+      box-shadow: black;
+      height: 50px;
+      width: 50px;
+      border-radius: 50%; }
+
+/* END BLOGS */

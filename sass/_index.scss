@@ -1,0 +1,169 @@
+/* MAIN */
+main {
+    .mainIndex {
+        background-image: url("./multimedia/SP-nowayhome.jpg");
+        display: block;
+        position: relative;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        margin: 0;
+        padding: 0;
+        background-position: center;
+        div.container-1 {
+            display: inline-block;
+            font-family: 'Lexend Peta', sans-serif;
+            font-weight: 700;
+            font-size: 26px;
+            line-height: 33.6px;
+            font-style: normal;
+            letter-spacing: 0;
+            margin-top: 60px;
+            margin-bottom: 24px;
+            color: #fff;
+            margin: 15%;
+            text-shadow: $sombraPrincipal;
+            h4.title1 {
+                margin-left: 45px;
+                margin-bottom: 15px;
+            }
+            h4.title2 {
+                font-size: 50px;
+            }
+            h4.title3 {
+                margin-left: 55px;
+                margin-top:15px;
+            }
+            h5.textP {
+                font-size: 18px;
+                margin-top: 10px;;
+            }
+            
+            button.watchNow {
+            display: inline-block;
+            text-align: center;
+            border-color: #ff5858;
+            background-color:#ff9898;
+            }
+            button.watchNow a {
+                display: inline-block;
+                text-decoration: none;
+                font-weight: bold;
+                font-family: 'Lexend Peta', sans-serif;
+                font-size: 17px;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                text-shadow: $sombraPrincipal;
+                &:hover{
+                    background-color: #ff6464;
+                    border-color: #ff9494;
+                }
+                &:active{
+                    padding: 0.2em;
+                }
+            }
+        }
+        div.container-2 {
+            display: block; 
+            background-color: #ff5858;
+            padding: 10px; 
+            position: absolute;
+            top: 570px;
+            left: 200px;
+            h4.homecoming {
+                display: inline-block;
+                margin: 10px;
+                font-family: 'Lexend Peta', sans-serif;
+                font-size: 25px;
+                text-align: center;
+                color: #fff;
+                text-shadow: $sombraPrincipal;
+                margin-left: 30%;
+            }
+            iframe.youtube1 {
+                display: block;
+                text-align: center;
+                margin: 10px;
+            }
+            button.verAhora1 {
+                display: inline-block;
+                text-align: center;
+                border-color: #ff5858;
+                background-color:#ff9898;
+                margin-left: 35%;
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                    font-family: 'Roboto Mono', monospace;
+                    font-size: 17px;
+                    color: rgb(0, 0, 0);
+                    padding: 10px;
+                    text-shadow: $sombraPrincipal;
+                    &:hover{
+                        background-color: #ff6464;
+                        border-color: #ff9494;
+                    }
+                    &:active{
+                        padding: 0.2em;
+                    }
+                }
+            }
+        }
+        div.container-3 {
+            display: block;
+            background-color: #ff5858;
+            padding: 10px;
+            position: absolute;
+            top: 570px;
+            right: 200px;
+            h4.farFromHome {
+                display: inline-block;
+                margin: 10px;
+                font-family: 'Roboto Mono', monospace;
+                font-size: 25px;
+                text-align: center;
+                color: #fff;
+                text-shadow: $sombraPrincipal;
+                margin-left: 25%;
+            }
+            iframe.youtube2 {
+                display: block;
+                text-align: center;
+                margin: 10px;
+            }
+            button.verAhora2 {
+                display: inline-block;
+                text-align: center;
+                border-color: #ff5858;
+                background-color:#ff9898;
+                margin-left: 35%;
+                a {
+                    text-decoration: none;
+                    text-align: center;
+                    font-family: 'Lexend Peta', sans-serif;
+                    font-size: 17px;
+                    font-weight: bold;
+                    color: rgb(0, 0, 0);
+                    padding: 10px;
+                    text-shadow: $sombraPrincipal;
+                    &:hover {
+                        background-color: #ff6464;
+                        border-color: #ff9494;
+                    }
+                    &:active{
+                        padding: 0.2em;
+                    }                    
+                }
+            }
+        }
+        #carouselExampleSlidesOnly {
+            position: absolute;
+            top: 1000px;
+            width: 100%;
+            height: 40%;
+            align-content: center;
+        }
+    
+    }
+}

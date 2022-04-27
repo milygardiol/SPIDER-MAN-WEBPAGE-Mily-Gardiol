@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #141429;
+}
+/* VARIABLES */
+$sombraPrincipal: rgb(0, 0, 05);
+$sombraTitulos: rgba(255, 255, 255, 07);
+/* INDEX */
+@import "header.scss";
+@import "index.scss";
+@import "footer.scss";
+/* END INDEX */
+/* PÁGINAS ANEXAS */
+/* MARVEL */
+@import "marvelHeader.scss";
+@import "marvelMain.scss";
+@import "marvelFooter.scss";
+/* END MARVEL */
+/* PELICULAS */
+@import "peliculasHeader.scss";
+@import "peliculasMain.scss";
+@import "peliculasFooter.scss";
+/* END PELICULAS */
+/* CONTACTO */
+@import "contactoHeader.scss";
+@import "contactoMain.scss";
+@import "contactoFooter.scss";
+/* END CONTACTO */
+/* BLOGS */
+@import "blogsHeader.scss";
+@import "blogsMain.scss";
+@import "blogsFooter.scss";
+/* END BLOGS */
+
+
+

@@ -1,0 +1,231 @@
+/* BLOGS MAIN */
+main {
+    h2.tituloBlogs {
+        display: inline-block;
+        position: absolute;
+        color: white;
+        text-shadow: $sombraTitulos;
+        top: 50px;
+        left: 40%;
+        margin: 30px;
+        padding: 10px;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 5px;
+        font-size: 50px;
+    }
+    h2.subtituloBlogs-1 {
+        display: inline-block;
+        position: absolute;
+        color: white;
+        text-shadow: $sombraTitulos;
+        top: 130px;
+        left: 10%;
+        margin: 30px;
+        padding: 10px;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+
+    h3.subtituloBlogs-2 {
+        display: inline-block;
+        position: absolute;
+        color: white;
+        text-shadow: $sombraTitulos;
+        top: 190px;
+        left: 25%;
+        margin: 30px;
+        padding: 10px;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 5px;
+        font-size: 20px;
+    }
+    div.spWiki {
+        display: block;
+        position: absolute;
+        top: 450px;
+        left: 200px;
+        right: 50%;
+        bottom: 0px;
+        background-color: #ff5858;
+        padding: 40px;
+        text-align: center;
+        h4 {
+            display: block;
+            margin: 10px; 
+            margin-bottom: 50px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Lexend Peta', sans-serif;
+            color: #fff;
+            text-shadow: $sombraPrincipal;
+        }
+        button {
+            display: block;
+            float: right;
+            text-align: center;
+            border-color: #ff5858;
+            background-color:#ff9898;
+            font-family: 'Lexend Peta', sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-shadow: $sombraPrincipal;
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                text-shadow: $sombraPrincipal;
+                &:hover {
+                    background-color: #ff6464;
+                    border-color: #ff9494;
+                }
+                &:active {
+                    padding: 0.2em;
+                }
+            }
+        }
+    }
+    div.spFacebook {
+        display: block;
+        position: absolute;
+        top: 680px;
+        left: 700px;
+        right: 200px;
+        bottom: -200px;
+        background-color: #ff5858;
+        padding: 40px;
+        text-align: center;
+        h4 {
+            display: block;
+            margin: 10px; 
+            margin-bottom: 50px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Lexend Peta', sans-serif;
+            color: #fff;
+            text-shadow: $sombraPrincipal;
+        }
+        button {
+            display: block;
+            float: right;
+            text-align: center;
+            border-color: #ff5858;
+            background-color:#ff9898;
+            font-family: 'Lexend Peta', sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-shadow: $sombraPrincipal;
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                text-shadow: $sombraPrincipal;
+                &:hover {
+                    background-color: #ff6464;
+                    border-color: #ff9494;
+                }
+                &:active {
+                    padding: 0.2em;
+                }
+            }
+        }
+    }
+    div.superHeroes {
+        display: block;
+        position: absolute;
+        top: 900px;
+        left: 200px;
+        bottom: -500px;
+        right: 50%;
+        background-color: #ff5858;
+        padding: 40px;
+        text-align: center;
+        h4 {
+            display: block;
+            margin: 10px; 
+            margin-bottom: 50px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Lexend Peta', sans-serif;
+            color: #fff;
+            text-shadow: $sombraPrincipal;
+        }
+        button {
+            display: block;
+            float: right;
+            text-align: center;
+            border-color: #ff5858;
+            background-color:#ff9898;
+            font-family: 'Lexend Peta', sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-shadow: $sombraPrincipal;
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                text-shadow: $sombraPrincipal;
+                &:hover {
+                    background-color: #ff6464;
+                    border-color: #ff9494;
+                }
+                &:active {
+                    padding: 0.2em;
+                }
+            }
+        }
+    }
+    div.enTumblr {
+        display: block;
+        position: absolute;
+        top: 1200px;
+        left: 700px;
+        right: 200px;
+        bottom: -800px;
+        background-color: #ff5858;
+        padding: 40px;
+        text-align: center;
+        h4 {
+            display: block;
+            margin: 10px; 
+            margin-bottom: 50px;
+            font-size: 20px;
+            text-align: center;
+            font-family: 'Lexend Peta', sans-serif;
+            color: #fff;
+            text-shadow: $sombraPrincipal;
+        }
+        button {
+            display: block;
+            float: right;
+            text-align: center;
+            border-color: #ff5858;
+            background-color:#ff9898;
+            font-family: 'Lexend Peta', sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            color: rgb(0, 0, 0);
+            padding: 10px;
+            text-shadow: $sombraPrincipal;
+            a {
+                text-decoration: none;
+                color: rgb(0, 0, 0);
+                padding: 10px;
+                text-shadow: $sombraPrincipal;
+                &:hover {
+                    background-color: #ff6464;
+                    border-color: #ff9494;
+                }
+                &:active {
+                    padding: 0.2em;
+                }
+            }
+        }
+    }
+}

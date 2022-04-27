@@ -1,0 +1,42 @@
+/* FOOTER BLOGS */
+
+footer.footerBlogs{
+    background-color: #ff5858;
+    display: block;
+    position: relative;
+    top: 1800px;
+    left: 0px;
+    bottom: 0px;
+    right: 100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 200px;
+    overflow: auto;
+    div nav {
+        h4.footerTitle {
+            display: inline-block;
+            margin-bottom: 10px;
+            padding: 30px;
+            color:rgb(255, 255, 255);
+            font-family: 'Lexend Peta', sans-serif;
+            font-size:20px;
+            text-align: center;
+        }
+        ul.socialMedia{
+            display: flex;
+            justify-content: space-evenly;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 1rem;
+            width: 100%;
+            li a{
+                text-decoration: none;
+                box-shadow:rgba(0,0,0,4);
+                height: 50px;
+                width: 50px;
+                border-radius: 50%;
+            }
+        }
+    }
+}
