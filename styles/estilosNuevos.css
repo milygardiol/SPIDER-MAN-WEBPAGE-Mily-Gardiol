@@ -30,16 +30,20 @@ header.headerIndex {
         font-weight: bold;
         font-family: 'Lexend Peta', sans-serif;
         letter-spacing: 4px;
-        /* text-shadow: 0 0 8px rgb(0 0 0 / 30%); */ }
+        text-shadow: #000005; }
         header.headerIndex nav ul li a:hover {
           background-color: #facaca;
           border-color: #ff9898; }
         header.headerIndex nav ul li a:active {
           padding: 0.2em; }
 
+/* MAPS */
+/* MIXIN */
 /* MAIN */
-main .mainIndex {
-  background-image: url("./multimedia/SP-nowayhome.jpg");
+main {
+  background-image: url("../multimedia/SP-nowayhome.jpg");
+  width: 100%;
+  height: 800px;
   display: block;
   position: relative;
   left: 0;
@@ -49,7 +53,7 @@ main .mainIndex {
   margin: 0;
   padding: 0;
   background-position: center; }
-  main .mainIndex div.container-1 {
+  main div.container-1 {
     display: inline-block;
     font-family: 'Lexend Peta', sans-serif;
     font-weight: 700;
@@ -61,24 +65,25 @@ main .mainIndex {
     margin-bottom: 24px;
     color: #fff;
     margin: 15%;
-    text-shadow: #000005; }
-    main .mainIndex div.container-1 h4.title1 {
+    text-shadow: white; }
+    main div.container-1 h4.title1 {
       margin-left: 45px;
       margin-bottom: 15px; }
-    main .mainIndex div.container-1 h4.title2 {
-      font-size: 50px; }
-    main .mainIndex div.container-1 h4.title3 {
+    main div.container-1 h4.title2 {
+      font-size: 90px;
+      margin-left: 10px; }
+    main div.container-1 h4.title3 {
       margin-left: 55px;
       margin-top: 15px; }
-    main .mainIndex div.container-1 h5.textP {
-      font-size: 18px;
+    main div.container-1 h5.textP {
+      font-size: 35px;
       margin-top: 10px; }
-    main .mainIndex div.container-1 button.watchNow {
+    main div.container-1 button.watchNow {
       display: inline-block;
       text-align: center;
       border-color: #ff5858;
       background-color: #ff9898; }
-    main .mainIndex div.container-1 button.watchNow a {
+    main div.container-1 button.watchNow a {
       display: inline-block;
       text-decoration: none;
       font-weight: bold;
@@ -87,19 +92,19 @@ main .mainIndex {
       color: black;
       padding: 10px;
       text-shadow: #000005; }
-      main .mainIndex div.container-1 button.watchNow a:hover {
+      main div.container-1 button.watchNow a:hover {
         background-color: #ff6464;
         border-color: #ff9494; }
-      main .mainIndex div.container-1 button.watchNow a:active {
+      main div.container-1 button.watchNow a:active {
         padding: 0.2em; }
-  main .mainIndex div.container-2 {
+  main div.container-2 {
     display: block;
     background-color: #ff5858;
     padding: 10px;
     position: absolute;
-    top: 570px;
+    top: 540px;
     left: 200px; }
-    main .mainIndex div.container-2 h4.homecoming {
+    main div.container-2 h4.homecoming {
       display: inline-block;
       margin: 10px;
       font-family: 'Lexend Peta', sans-serif;
@@ -108,17 +113,17 @@ main .mainIndex {
       color: #fff;
       text-shadow: #000005;
       margin-left: 30%; }
-    main .mainIndex div.container-2 iframe.youtube1 {
+    main div.container-2 iframe.youtube1 {
       display: block;
       text-align: center;
       margin: 10px; }
-    main .mainIndex div.container-2 button.verAhora1 {
+    main div.container-2 button.verAhora1 {
       display: inline-block;
       text-align: center;
       border-color: #ff5858;
       background-color: #ff9898;
       margin-left: 35%; }
-      main .mainIndex div.container-2 button.verAhora1 a {
+      main div.container-2 button.verAhora1 a {
         text-decoration: none;
         text-align: center;
         font-family: 'Roboto Mono', monospace;
@@ -126,19 +131,19 @@ main .mainIndex {
         color: black;
         padding: 10px;
         text-shadow: #000005; }
-        main .mainIndex div.container-2 button.verAhora1 a:hover {
+        main div.container-2 button.verAhora1 a:hover {
           background-color: #ff6464;
           border-color: #ff9494; }
-        main .mainIndex div.container-2 button.verAhora1 a:active {
+        main div.container-2 button.verAhora1 a:active {
           padding: 0.2em; }
-  main .mainIndex div.container-3 {
+  main div.container-3 {
     display: block;
     background-color: #ff5858;
     padding: 10px;
     position: absolute;
-    top: 570px;
+    top: 540px;
     right: 200px; }
-    main .mainIndex div.container-3 h4.farFromHome {
+    main div.container-3 h4.farFromHome, main div.container-3 div.container-2 h4.homecoming, main div.container-2 div.container-3 h4.homecoming {
       display: inline-block;
       margin: 10px;
       font-family: 'Roboto Mono', monospace;
@@ -147,17 +152,17 @@ main .mainIndex {
       color: #fff;
       text-shadow: #000005;
       margin-left: 25%; }
-    main .mainIndex div.container-3 iframe.youtube2 {
+    main div.container-3 iframe.youtube2 {
       display: block;
       text-align: center;
       margin: 10px; }
-    main .mainIndex div.container-3 button.verAhora2 {
+    main div.container-3 button.verAhora2 {
       display: inline-block;
       text-align: center;
       border-color: #ff5858;
       background-color: #ff9898;
       margin-left: 35%; }
-      main .mainIndex div.container-3 button.verAhora2 a {
+      main div.container-3 button.verAhora2 a {
         text-decoration: none;
         text-align: center;
         font-family: 'Lexend Peta', sans-serif;
@@ -166,12 +171,12 @@ main .mainIndex {
         color: black;
         padding: 10px;
         text-shadow: #000005; }
-        main .mainIndex div.container-3 button.verAhora2 a:hover {
+        main div.container-3 button.verAhora2 a:hover {
           background-color: #ff6464;
           border-color: #ff9494; }
-        main .mainIndex div.container-3 button.verAhora2 a:active {
+        main div.container-3 button.verAhora2 a:active {
           padding: 0.2em; }
-  main .mainIndex #carouselExampleSlidesOnly {
+  main #carouselExampleSlidesOnly {
     position: absolute;
     top: 1000px;
     width: 100%;
@@ -265,7 +270,7 @@ main div.historiaMarvel {
   top: 100px;
   left: 50px;
   right: 60%;
-  bottom: 190px;
+  bottom: 220px;
   background-color: #ff5858;
   padding: 40px;
   text-align: center; }
@@ -332,7 +337,7 @@ main div.juegosMarvel {
       main div.juegosMarvel button.comprarJuego a:active {
         padding: 0.2em; }
   main div.juegosMarvel h3.verJuegos a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
@@ -343,7 +348,7 @@ main div.juegosMarvel {
 main div.comicsMarvel {
   display: block;
   position: absolute;
-  top: 600px;
+  top: 610px;
   left: 50px;
   right: 800px;
   background-color: #ff5858;
@@ -364,7 +369,7 @@ main div.comicsMarvel {
     text-shadow: #000005;
     margin: 10px; }
   main div.comicsMarvel h3.h3Comics a {
-    color: #fff;
+    color: black;
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
@@ -375,7 +380,7 @@ main div.comicsMarvel {
 main div.disneyPlus {
   display: block;
   position: absolute;
-  top: 1000px;
+  top: 1100px;
   left: 50px;
   right: 800px;
   background-color: #ff5858;
@@ -1117,3 +1122,5 @@ footer.footerBlogs {
       border-radius: 50%; }
 
 /* END BLOGS */
+/* MAPS */
+/* MIXIN */

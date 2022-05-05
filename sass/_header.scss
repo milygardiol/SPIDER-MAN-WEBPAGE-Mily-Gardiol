@@ -20,7 +20,7 @@ header.headerIndex{
             font-weight: bold;
             font-family: 'Lexend Peta', sans-serif;
             letter-spacing: 4px;
-            /* text-shadow: 0 0 8px rgb(0 0 0 / 30%); */
+            text-shadow: $sombraPrincipal;
             &:hover{
                 background-color: #facaca;
                 border-color: #ff9898;

@@ -1,7 +1,22 @@
+/* MAPS */
+$buttons: (
+    tipo: inline-block,
+    centro: center,
+    colorBorde: #ff5858,
+    colorFondo:#ff9898
+);
+/* MIXIN */
+@mixin iframes {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
+
 /* MAIN */
 main {
-    .mainIndex {
-        background-image: url("./multimedia/SP-nowayhome.jpg");
+        background-image: url("../multimedia/SP-nowayhome.jpg");
+        width: 100%;
+        height: 800px;
         display: block;
         position: relative;
         left: 0;
@@ -23,28 +38,28 @@ main {
             margin-bottom: 24px;
             color: #fff;
             margin: 15%;
-            text-shadow: $sombraPrincipal;
+            text-shadow: $sombraTitulos;
             h4.title1 {
                 margin-left: 45px;
                 margin-bottom: 15px;
             }
             h4.title2 {
-                font-size: 50px;
+                font-size: 90px;
+                margin-left: 10px;
             }
             h4.title3 {
                 margin-left: 55px;
                 margin-top:15px;
             }
             h5.textP {
-                font-size: 18px;
+                font-size: 35px;
                 margin-top: 10px;;
             }
-            
             button.watchNow {
-            display: inline-block;
-            text-align: center;
-            border-color: #ff5858;
-            background-color:#ff9898;
+            display: map-get($buttons, tipo);
+            text-align: map-get($buttons, centro);
+            border-color: map-get($buttons, colorBorde);
+            background-color: map-get($buttons, colorFondo);
             }
             button.watchNow a {
                 display: inline-block;
@@ -69,9 +84,10 @@ main {
             background-color: #ff5858;
             padding: 10px; 
             position: absolute;
-            top: 570px;
+            top: 540px;
             left: 200px;
             h4.homecoming {
+                @extend .farFromHome;
                 display: inline-block;
                 margin: 10px;
                 font-family: 'Lexend Peta', sans-serif;
@@ -82,15 +98,13 @@ main {
                 margin-left: 30%;
             }
             iframe.youtube1 {
-                display: block;
-                text-align: center;
-                margin: 10px;
+                @include iframes;
             }
             button.verAhora1 {
-                display: inline-block;
-                text-align: center;
-                border-color: #ff5858;
-                background-color:#ff9898;
+                display: map-get($buttons, tipo);
+                text-align: map-get($buttons, centro);
+                border-color: map-get($buttons, colorBorde);
+                background-color: map-get($buttons, colorFondo);
                 margin-left: 35%;
                 a {
                     text-decoration: none;
@@ -115,7 +129,7 @@ main {
             background-color: #ff5858;
             padding: 10px;
             position: absolute;
-            top: 570px;
+            top: 540px;
             right: 200px;
             h4.farFromHome {
                 display: inline-block;
@@ -128,9 +142,7 @@ main {
                 margin-left: 25%;
             }
             iframe.youtube2 {
-                display: block;
-                text-align: center;
-                margin: 10px;
+                @include iframes;
             }
             button.verAhora2 {
                 display: inline-block;
@@ -164,6 +176,4 @@ main {
             height: 40%;
             align-content: center;
         }
-    
-    }
-}
+        }

@@ -10,7 +10,7 @@ $sombraPrincipal: rgb(0, 0, 05);
 $sombraTitulos: rgba(255, 255, 255, 07);
 /* INDEX */
 @import "header.scss";
-@import "index.scss";
+@import "mainIndex.scss";
 @import "footer.scss";
 /* END INDEX */
 /* PÁGINAS ANEXAS */
@@ -34,6 +34,23 @@ $sombraTitulos: rgba(255, 255, 255, 07);
 @import "blogsMain.scss";
 @import "blogsFooter.scss";
 /* END BLOGS */
+/* MAPS */
+$hovers: #facaca, #ff9898;
+$sombras: $sombraPrincipal, $sombraTitulos;
 
+$buttons: (
+    tipo: inline-block,
+    centro: center,
+    colorBorde: #ff5858,
+    colorFondo:#ff9898
+);
+
+/* MIXIN */
+
+@mixin iframes {
+    display: block;
+    text-align: center;
+    margin: 10px;
+}
 
 
