@@ -1,7 +1,8 @@
 @charset "UTF-8";
 * {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
   background-color: #141429; }
@@ -9,33 +10,48 @@ body {
 /* VARIABLES */
 /* INDEX */
 /* ESTILOS HEADER */
-header.headerIndex {
-  display: block;
+nav .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #ff5858;
-  position: fixed;
-  padding: 30px;
-  top: 40;
-  width: 100%;
-  z-index: 1; }
-  header.headerIndex nav {
-    text-align: left;
-    display: inline-block;
-    width: 60%; }
-    header.headerIndex nav ul li {
-      display: inline-block; }
-      header.headerIndex nav ul li a {
-        color: black;
+  color: white; }
+  nav .navbar .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    display: flex; }
+    nav .navbar .navbar-links ul li {
+      list-style: none; }
+      nav .navbar .navbar-links ul li:active {
+        padding: 0.2em; }
+      nav .navbar .navbar-links ul li a {
+        color: white;
         text-decoration: none;
-        padding: 10px;
+        display: block;
+        padding: 1rem;
         font-weight: bold;
         font-family: 'Lexend Peta', sans-serif;
-        letter-spacing: 4px;
+        letter-spacing: 1rem;
         text-shadow: #000005; }
-        header.headerIndex nav ul li a:hover {
+        nav .navbar .navbar-links ul li a:hover {
           background-color: #facaca;
           border-color: #ff9898; }
-        header.headerIndex nav ul li a:active {
+        nav .navbar .navbar-links ul li a:active {
           padding: 0.2em; }
+  nav .navbar .toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px; }
+    nav .navbar .toggle-button .bar {
+      height: 3px;
+      width: 100%;
+      background-color: white;
+      border-radius: 10px; }
 
 /* MAPS */
 /* MIXIN */
@@ -185,22 +201,19 @@ main {
 
 /* FOOTER */
 footer {
-  background-color: #ff5858;
   display: block;
   position: relative;
-  top: 500px;
-  left: 0px;
-  right: 100%;
+  top: 2000px;
+  bottom: 0;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 200px;
-  overflow: auto; }
+  height: 200px; }
   footer div nav h4.footerTitle {
     display: inline-block;
     margin-bottom: 10px;
     padding: 30px;
-    color: #030101;
+    color: white;
     font-family: 'Lexend Peta', sans-serif;
     font-size: 20px;
     text-align: center; }
@@ -213,7 +226,7 @@ footer {
     width: 100%; }
     footer div nav ul.socialMedia li a {
       text-decoration: none;
-      /*  box-shadow: 0 0 15px rgb(0 0 0 / 40%); */
+      box-shadow: #000005;
       height: 50px;
       width: 50px;
       border-radius: 50%; }
@@ -221,34 +234,6 @@ footer {
 /* END INDEX */
 /* PÁGINAS ANEXAS */
 /* MARVEL */
-header.headerMarvel {
-  display: block;
-  background-color: #ff5858;
-  position: fixed;
-  padding: 20px;
-  top: 20;
-  width: 100%;
-  z-index: 1; }
-  header.headerMarvel nav.navMarvel {
-    text-align: left;
-    display: inline-block;
-    width: 60%; }
-    header.headerMarvel nav.navMarvel ul.ulMarvel li {
-      display: inline-block; }
-      header.headerMarvel nav.navMarvel ul.ulMarvel li a {
-        color: black;
-        text-decoration: none;
-        padding: 10px;
-        font-weight: bold;
-        font-family: 'Lexend Peta', sans-serif;
-        letter-spacing: 4px;
-        text-shadow: #000005; }
-        header.headerMarvel nav.navMarvel ul.ulMarvel li a:hover {
-          background-color: #facaca;
-          border-color: #ff9898; }
-        header.headerMarvel nav.navMarvel ul.ulMarvel li a:active {
-          padding: 0.2em; }
-
 /* MARVEL MAIN */
 /* MARVEL TITLE */
 main h1.h1Marvel {
@@ -438,74 +423,8 @@ main div.sonyPictures {
       text-shadow: #000005;
       margin: 20px; }
 
-/* FOOTER */
-footer {
-  background-color: #ff5858;
-  display: block;
-  position: relative;
-  top: 1500px;
-  left: 0px;
-  bottom: 0;
-  right: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 200px;
-  overflow: auto; }
-  footer div nav h4.footerTitle {
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 30px;
-    color: white;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 20px;
-    text-align: center; }
-  footer div nav ul.socialMedia {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 100%; }
-    footer div nav ul.socialMedia li a {
-      text-decoration: none;
-      box-shadow: #000005;
-      height: 50px;
-      width: 50px;
-      border-radius: 50%; }
-
 /* END MARVEL */
 /* PELICULAS */
-/* HEADER PELICULAS */
-header.headerPeli {
-  display: block;
-  background-color: #ff5858;
-  position: fixed;
-  padding: 20px;
-  top: 30;
-  width: 100%;
-  z-index: 1; }
-  header.headerPeli nav.navPeli {
-    text-align: left;
-    display: inline-block;
-    width: 60%; }
-    header.headerPeli nav.navPeli ul.ulPeli li {
-      display: inline-block; }
-      header.headerPeli nav.navPeli ul.ulPeli li a {
-        color: black;
-        text-decoration: none;
-        padding: 10px;
-        font-weight: bold;
-        font-family: 'Lexend Peta', sans-serif;
-        letter-spacing: 4px;
-        text-shadow: #000005; }
-        header.headerPeli nav.navPeli ul.ulPeli li a:hover {
-          background-color: #facaca;
-          border-color: #ff9898; }
-        header.headerPeli nav.navPeli ul.ulPeli li a:active {
-          padding: 0.2em; }
-
-/* END HEADER PELICULAS */
 /* PELIS MAIN */
 main div h2.tituloPeli {
   display: inline-block;
@@ -536,13 +455,8 @@ main div h4.subtitulo {
 main table {
   display: block;
   position: absolute;
-  background-color: #ff6464;
   top: 300px;
-  left: 100px;
-  right: 30px;
-  margin: 30px;
-  padding: 5px;
-  border-color: #181829; }
+  padding: 5px; }
   main table tbody {
     font-size: 15px;
     color: #121212;
@@ -552,73 +466,8 @@ main table {
     font-weight: bold;
     text-align: center; }
 
-/* FOOTER PELI */
-#footerPeli {
-  background-color: #ff5858;
-  display: block;
-  position: relative;
-  top: 3000px;
-  left: 0px;
-  bottom: 0px;
-  right: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 200px;
-  overflow: auto; }
-  #footerPeli div nav h4.footerTitle {
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 30px;
-    color: white;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 20px;
-    text-align: center; }
-  #footerPeli div nav ul.socialMedia {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 100%; }
-    #footerPeli div nav ul.socialMedia li a {
-      text-decoration: none;
-      box-shadow: black;
-      height: 50px;
-      width: 50px;
-      border-radius: 50%; }
-
 /* END PELICULAS */
 /* CONTACTO */
-/* CONTACTO HEADER */
-header.headerContacto {
-  display: block;
-  background-color: #ff5858;
-  position: fixed;
-  padding: 20px;
-  top: 30;
-  width: 100%;
-  z-index: 1; }
-  header.headerContacto nav.navContacto {
-    text-align: left;
-    display: inline-block;
-    width: 60%; }
-    header.headerContacto nav.navContacto ul.ulContacto li {
-      display: inline-block; }
-      header.headerContacto nav.navContacto ul.ulContacto li a {
-        color: black;
-        text-decoration: none;
-        padding: 10px;
-        font-weight: bold;
-        font-family: 'Lexend Peta', sans-serif;
-        letter-spacing: 4px;
-        text-shadow: black; }
-        header.headerContacto nav.navContacto ul.ulContacto li a:hover {
-          background-color: #facaca;
-          border-color: #ff9898; }
-        header.headerContacto nav.navContacto ul.ulContacto li a:active {
-          padding: 0.2em; }
-
 /* CONTACTO MAIN */
 main h2.tituloContacto {
   display: inline-block;
@@ -810,73 +659,8 @@ main div.card {
   top: 950px;
   left: 200px; }
 
-/* CONTACTO FOOTER */
-#footerContacto {
-  background-color: #ff5858;
-  display: block;
-  position: relative;
-  top: 2300px;
-  left: 0px;
-  bottom: 0px;
-  right: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 200px;
-  overflow: auto; }
-  #footerContacto div nav h4.footerTitle {
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 30px;
-    color: white;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 20px;
-    text-align: center; }
-  #footerContacto div nav ul.socialMedia {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 100%; }
-    #footerContacto div nav ul.socialMedia li a {
-      text-decoration: none;
-      box-shadow: black;
-      height: 50px;
-      width: 50px;
-      border-radius: 50%; }
-
 /* END CONTACTO */
 /* BLOGS */
-/* BLOGS HEADER */
-header.headerBlogs {
-  display: block;
-  background-color: #ff5858;
-  position: fixed;
-  padding: 20px;
-  top: 30;
-  width: 100%;
-  z-index: 1; }
-  header.headerBlogs nav.navBlogs {
-    text-align: left;
-    display: inline-block;
-    width: 60%; }
-    header.headerBlogs nav.navBlogs ul.ulBlogs li {
-      display: inline-block; }
-      header.headerBlogs nav.navBlogs ul.ulBlogs li a {
-        color: black;
-        text-decoration: none;
-        padding: 10px;
-        font-weight: bold;
-        font-family: 'Lexend Peta', sans-serif;
-        letter-spacing: 4px;
-        text-shadow: black; }
-        header.headerBlogs nav.navBlogs ul.ulBlogs li a:hover {
-          background-color: #facaca;
-          border-color: #ff9898; }
-        header.headerBlogs nav.navBlogs ul.ulBlogs li a:active {
-          padding: 0.2em; }
-
 /* BLOGS MAIN */
 main h2.tituloBlogs {
   display: inline-block;
@@ -1085,42 +869,29 @@ main div.enTumblr {
       main div.enTumblr button a:active {
         padding: 0.2em; }
 
-/* FOOTER BLOGS */
-footer.footerBlogs {
-  background-color: #ff5858;
-  display: block;
-  position: relative;
-  top: 1800px;
-  left: 0px;
-  bottom: 0px;
-  right: 100%;
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  height: 200px;
-  overflow: auto; }
-  footer.footerBlogs div nav h4.footerTitle {
-    display: inline-block;
-    margin-bottom: 10px;
-    padding: 30px;
-    color: white;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 20px;
-    text-align: center; }
-  footer.footerBlogs div nav ul.socialMedia {
-    display: flex;
-    justify-content: space-evenly;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 1rem;
-    width: 100%; }
-    footer.footerBlogs div nav ul.socialMedia li a {
-      text-decoration: none;
-      box-shadow: black;
-      height: 50px;
-      width: 50px;
-      border-radius: 50%; }
-
 /* END BLOGS */
+/* MEDIA QUERIES */
+/* MOBILE */
+/* MEDIA QUERIES */
+@media (max-width: 400px) {
+  .toggle-button {
+    display: flex; }
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start; }
+    .navbar .navbar-links {
+      /* display: none; */
+      width: 100%; }
+      .navbar .navbar-links ul {
+        width: 100%;
+        flex-direction: column; }
+        .navbar .navbar-links ul li {
+          text-align: center; }
+          .navbar .navbar-links ul li a {
+            padding: .5rem 1rem; }
+            .navbar .navbar-links ul li a .active {
+              display: flex; } }
+
+/* END MOBILE */
 /* MAPS */
 /* MIXIN */

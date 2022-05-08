@@ -1,34 +1,54 @@
 /* ESTILOS HEADER */
-header.headerIndex{
-    display: block;
-    background-color: #ff5858;
-    position: fixed;
-    padding: 30px;
-    top: 40;
-    width: 100%;
-    z-index: 1;
-    nav{
-        text-align: left;
-        display:inline-block;
-        width:60%;
-        ul li{
-            display: inline-block;
-            a{
-            color: rgb(0, 0, 0);
-            text-decoration: none;
-            padding: 10px;
-            font-weight: bold;
-            font-family: 'Lexend Peta', sans-serif;
-            letter-spacing: 4px;
-            text-shadow: $sombraPrincipal;
-            &:hover{
-                background-color: #facaca;
-                border-color: #ff9898;
+nav .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #ff5858;
+        color: white;
+        .navbar-links {
+            ul {
+                margin: 0;
+                padding: 0;
+                display: flex;
+                    li{
+                    list-style: none;
+                        &:active{
+                            padding: 0.2em;
+                        }
+                        a{
+                        color: rgb(255, 255, 255);
+                        text-decoration: none;
+                        display: block;
+                        padding: 1rem;
+                        font-weight: bold;
+                        font-family: 'Lexend Peta', sans-serif;
+                        letter-spacing: 1rem;
+                        text-shadow: $sombraPrincipal;
+                            &:hover{
+                                background-color: #facaca;
+                                border-color: #ff9898;
+                            }
+                            &:active{
+                                padding: 0.2em;
+                            }
             }
-            &:active{
-                padding: 0.2em;
-            }
+        }
+        }
+        }
+        .toggle-button {
+            position: absolute;
+            top: .75rem;
+            right: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            width: 30px;
+            height: 21px;
+            .bar {
+                height: 3px;
+                width: 100%;
+                background-color: white;
+                border-radius: 10px;
             }
         }
     }
-}

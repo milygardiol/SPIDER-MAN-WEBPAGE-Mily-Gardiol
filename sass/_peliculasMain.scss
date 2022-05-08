@@ -31,13 +31,8 @@ main {
     table {
         display: block;
         position: absolute;
-        background-color: #ff6464;
         top: 300px;
-        left: 100px;
-        right: 30px;
-        margin: 30px;
         padding: 5px;
-        border-color: #181829;
         tbody {
             font-size: 15px;
             color: #121212;
@@ -46,6 +41,6 @@ main {
             text-shadow: $sombraTitulos;
             font-weight: bold;
             text-align: center;
-        }
-    }
+        } 
+    } 
 }

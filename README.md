@@ -3,3 +3,8 @@ Entrega del desafío de GitHub de el curso de Desarrollo Web de CoderHouse. Pág
 
 
 Distintas ramas de los desafíos de CoderHouse en un solo respositorio.
+
+Aplicando SASS + SEO
+
+Tercera entrega del trabajo final.
+
