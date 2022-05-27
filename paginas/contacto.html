@@ -44,53 +44,58 @@
           </nav>
     </header>
     <main>
-        <h2 class="animate__animated animate__slideInDown tituloContacto">CONTACTO</h2>
-        <div>
-            <h3 class=" animate__animated animate__slideInDown subtituloContacto-1">¿Tienes alguna duda o teoría para compartir con nosotros?</h3>
-            <h4 class=" animate__animated animate__slideInDown subtituloContacto-2">¡Deja tu opinión aquí para que podamos leerte!</h4>
-        <form action="contacto">
-            <fieldset>
-                <input type="text" class="nombre" name="Nombre" placeholder="Nombre">
-                <input type="text" class="apellido" name="Apellido" placeholder="Apellido">
-                <input type="text" class="email" name="email" placeholder="Ingresa tu email" required>
-                <input type="password" class="contraseña" name="contraseña" placeholder="Contraseña" required>
-            <select name="pelicula" id="elegirPelicula">
-                <option value hidden selected>Elige una película</option>
-                <option value="2002">Spider-Man</option>
-                <option value="2004">Spider-Man 2</option>
-                <option value="2007">Spider-Man 3</option>
-                <option value="2012">The Amazing Spider-Man</option>
-                <option value="2014">The Amazing Spider-Man 2</option>
-                <option value="2016">Captain America: Civil War</option>
-                <option value="2017">Spider-Man: Homecoming</option>
-                <option value="2018">Avengers: Infinity War</option>
-                <option value="2019">Avengers: EndGame</option>
-                <option value="ffh2019">Spider-Man: Far From Home</option>
-                <option value="2021">Spider-Man: No Way Home</option>
-            </select>
-            <div class="checkbox">
-                <label for="foro">¿Deseas incluír tu comentario en nuestro foro?</label>
-                <input type="checkbox" name="foro" id="foro" value="foro"> <br>
-                <label for="newsletter">¿Quieres suscribirte a nuestro newsletter?</label>
-                <input type="checkbox" name="newsletter" id="newsletter value="newsletter">
-            </div>
-            <div class="tipoAporte"> 
-                <h4>Tipo de aporte</h4>
-                <label for="consulta">Pregunta</label>
-                <input type="radio" name="consulta" id="consulta>
-                <label for="teoria">Teoría</label>
-                <input type="radio" name="teoria" id="teoria>
-                <label for="meme">Diversión</label>
-                <input type="radio" name="meme" id="meme">
-            </div>
-            <input type="file" name="archivos" id="img">
-            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="¡Deja tu comentario aquí!"></textarea>
-            <button type="reset" class="btn btn-light limpiar">Limpiar todo</button>
-            <button type="submit" class="btn btn-light enviar">Enviar</button>
-            </div>
-        </fieldset>
-    </form>
-    <div class="card" style="width: 18rem;">
+      <di class="container__titulo--1">
+        <h2 class="animate__animated animate__slideInDown tituloContacto" id="tituloContacto">CONTACTO</h2>
+      </div>
+      <div class="container__titulo--2">
+            <h3 class=" animate__animated animate__slideInDown subtituloContacto-1" id="subtituloContacto-1">¿Tienes alguna duda o teoría para compartir con nosotros?</h3>
+            <h4 class=" animate__animated animate__slideInDown subtituloContacto-2" id="subtituloContacto-2">¡Deja tu opinión aquí para que podamos leerte!</h4>
+      </div>
+      <div class="card--contacto">
+        <form action="contacto" method="get">
+            <fieldset class="fieldset--contacto">
+                    <input type="text" class="nombre" name="Nombre" placeholder="Nombre" id="input">
+                    <input type="text" class="apellido" name="Apellido" placeholder="Apellido" id="input">
+                    <input type="text" class="email" name="email" placeholder="Ingresa tu email" required id="input">
+                    <input type="password" class="contraseña" name="contraseña" placeholder="Contraseña" required id="input">
+                    <select name="pelicula" class="elegirPelicula" id="input">
+                        <option value hidden selected>Elige una película</option>
+                        <option value="2002">Spider-Man</option>
+                        <option value="2004">Spider-Man 2</option>
+                        <option value="2007">Spider-Man 3</option>
+                        <option value="2012">The Amazing Spider-Man</option>
+                        <option value="2014">The Amazing Spider-Man 2</option>
+                        <option value="2016">Captain America: Civil War</option>
+                        <option value="2017">Spider-Man: Homecoming</option>
+                        <option value="2018">Avengers: Infinity War</option>
+                        <option value="2019">Avengers: EndGame</option>
+                        <option value="ffh2019">Spider-Man: Far From Home</option>
+                        <option value="2021">Spider-Man: No Way Home</option>
+                    </select>
+              <div class="checkbox">
+                  <label for="foro">¿Deseas incluír tu comentario en nuestro foro?</label>
+                  <input type="checkbox" name="foro" id="foro" value="foro"> <br>
+                  <label for="newsletter">¿Quieres suscribirte a nuestro newsletter?</label>
+                  <input type="checkbox" name="newsletter" id="newsletter value="newsletter">
+              </div>
+              <div class="tipoAporte"> 
+                  <h4>Tipo de aporte</h4>
+                  <label for="consulta">Pregunta</label>
+                  <input type="radio" name="consulta" id="consulta>
+                  <label for="teoria">Teoría</label>
+                  <input type="radio" name="teoria" id="teoria>
+                  <label for="meme">Diversión</label>
+                  <input type="radio" name="meme" id="meme">
+              </div>
+                  <input type="file" name="archivos" id="img">
+                  <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="¡Deja tu comentario aquí!"></textarea>
+                  <button type="reset" class="btn btn-light limpiar">Limpiar todo</button>
+                  <button type="submit" class="btn btn-light enviar">Enviar</button>
+              </div>
+          </fieldset>
+        </form>
+    </div>
+    <div class="card" id="card-contact" style="width: 18rem;">
         <img src="../multimedia/poster-spidey.jpg" class="card-img-top" alt="...">
         <div class="card-body">
           <p class="card-text">En la película, Peter Parker le pide al Dr. Stephen Strange (Cumberbatch) que lo ayude a hacer de su identidad como Spider-Man un secreto después de su revelación pública, lo que lleva a la ruptura del multiverso al permitir que cinco supervillanos de realidades alternativas ingresen al universo de Peter Parker. -Wikipedia.</p>
@@ -110,6 +115,7 @@
                 <li><a href="https://www.snapchat.com/add/marvelhq"><img src="../multimedia/snapchat.png" alt="Snapchat PNG" width="25" height="25"></a></li>
                 <li><a href="https://www.pinterest.com/marvelofficial"><img src="../multimedia/pinterest.png" alt="Pinterest PNG" width="25" height="25"></a></li>
             </ul>
+            <span>© 2022 Milagros Gardiol.</span>
         </nav>
         </div>
     </footer>

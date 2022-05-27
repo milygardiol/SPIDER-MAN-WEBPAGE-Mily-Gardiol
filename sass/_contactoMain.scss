@@ -1,3 +1,44 @@
+/* MIXIN - VARS */
+@mixin checkbox {
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    font-family: 'Lexend Peta', sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    text-shadow: $sombraTitulos;
+}
+
+@mixin inputs {
+    display: block;
+    margin: 10px;
+    border-radius: 4px;
+    position: relative;
+    left: 23%;
+    text-align: center;
+    box-shadow: $sombraTitulos;
+    width: 300px;
+    height: 35px;
+}
+
+@mixin botones {
+    display: block;
+    text-align: center;
+    border-color: #ff5858;
+    background-color:#ff9898;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    font-weight: bold;   
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    text-shadow: $sombraPrincipal;
+    margin: 20px;
+}
+
+
 /* CONTACTO MAIN */
 main {
     h2.tituloContacto {
@@ -6,8 +47,8 @@ main {
         color: white;
         text-shadow: $sombraTitulos;
         top: 50px;
-        left: 35%;
-        margin: 30px;
+        left: 15%;
+        margin: 20px;
         padding: 10px;
         font-family: 'Lexend Peta', sans-serif;
         letter-spacing: 5px;
@@ -20,7 +61,7 @@ main {
             color: white;
             text-shadow: $sombraTitulos;
             top: 130px;
-            left: 15%;
+            left: 5%;
             margin: 30px;
             padding: 10px;
             font-family: 'Lexend Peta', sans-serif;
@@ -33,180 +74,98 @@ main {
             color: white;
             text-shadow: $sombraTitulos;
             top: 190px;
-            left: 23%;
+            left: 13%;
             margin: 30px;
             padding: 10px;
             font-family: 'Lexend Peta', sans-serif;
             letter-spacing: 5px;
             font-size: 20px;
         }
-        form fieldset {
-            display: block;
-            position: absolute;
-            top: 300px;
-            left: 150px;
-            bottom: -400px;
-            right: 150px;
-            background-color: #ff5858;
-            border-color: #141429;
-            legend {
-                display: inline-block;
-                margin: 30px;
-                padding: 10px;
-                font-family: 'Lexend Peta', sans-serif;
-                letter-spacing: 4px;
-                font-size: 23px;
-                font-weight: bold;
-                color: white;
-                text-shadow: $sombraTitulos;
-            }
-            input.nombre {
+    }
+    div.card--contacto {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+            form fieldset {
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 display: block;
-                position: absolute;
-                top: 30px;
-                left: 40%;
-                text-align: center;
-                box-shadow: $sombraTitulos;
-                width: 300px;
-                height: 35px;
-            }
-            input.apellido {
-                display: block;
-                position: absolute;
-                top: 80px;
-                left: 40%;
-                text-align: center;
-                box-shadow: $sombraTitulos;
-                width: 300px;
-                height: 35px;
-            }
-            input.email {
-                display: block;
-                position: absolute;
-                top: 130px;
-                left: 40%;
-                text-align: center;
-                box-shadow: $sombraTitulos;
-                width: 300px;
-                height: 35px;
-            }
-            input.contraseña {
-                display: block;
-                position: absolute;
-                top: 180px;
-                left: 40%;
-                text-align: center;
-                box-shadow: $sombraTitulos;
-                width: 300px;
-                height: 35px;
-            }
-            #elegirPelicula {
-                display: block;
-                position: absolute;
-                top: 230px;
-                left: 40%;
-                text-align: center;
-                background-color: #ffbebe;
-                box-shadow: $sombraTitulos;
-                width: 300px;
-                height: 35px;
-            }
-            div.checkbox {
-                display: block;
-                position: absolute;
-                top: 380px;
-                left: 50%;
-                margin-left: 10px;
-                margin-right: 10px;
-                padding: 20px;
-                font-family: 'Lexend Peta', sans-serif;
-                letter-spacing: 4px;
-                font-size: 15px;
-                font-weight: bold;
-                color: white;
-                text-shadow: $sombraTitulos;
-            }
-            div.tipoAporte {
-                display: block;
-                position: absolute;
-                top: 330px;
-                left: 50%;
-                margin-left: 10px;
-                margin-right: 10px;
-                padding: 20px;
-                font-family: 'Lexend Peta', sans-serif;
-                letter-spacing: 4px;
-                font-size: 15px;
-                font-weight: bold;
-                color: white;
-                text-shadow: $sombraTitulos;
-            }
-            #img {
-                display: block;
-                position: absolute;
-                top: 280px;
-                left: 15%;
-                text-align: center;
-                width: 300px;
-                height: 35px;
-            }
-            
-            #comentario {
-                display: block;
-                position: absolute;
-                top: 330px;
-                left: 15%;
-                text-align: center;
-            }            
-            button.limpiar {
-                display: block;
-                position: absolute;
-                top: 530px;
-                left: 55%;
-                text-align: center;
-                border-color: #ff5858;
-                background-color:#ff9898;
-                font-family: 'Lexend Peta', sans-serif;
-                font-size: 17px;
-                font-weight: bold;   
-                color: rgb(0, 0, 0);
-                padding: 10px;
-                text-shadow: $sombraPrincipal;
-                &:hover{
-                    background-color: #ff6464;
-                    border-color: #ff9494;
+                position: relative;
+                top: 400px;
+                background-color: #ff5858;
+                border-color: #141429;
+                legend {
+                    display: inline-block;
+                    margin: 30px;
+                    padding: 10px;
+                    font-family: 'Lexend Peta', sans-serif;
+                    letter-spacing: 4px;
+                    font-size: 23px;
+                    font-weight: bold;
+                    color: white;
+                    text-shadow: $sombraTitulos;
                 }
-                &:active{
-                    padding: 0.2em;
+                input.nombre {
+                    @include inputs;
+                }
+                input.apellido {
+                    @include inputs;
+                }
+                input.email {
+                    @include inputs;
+                }
+                input.contraseña {
+                    @include inputs;
+                }
+                .elegirPelicula {
+                    @include inputs;
+                }
+                div.checkbox {
+                    @include checkbox;
+                }
+                div.tipoAporte {
+                    @include checkbox;
+                }
+                #img {
+                    display: block;
+                    margin: 30px;
+                    text-align: center;
+                    width: 300px;
+                    height: 35px;
+                }
+                
+                #comentario {
+                    margin-left: 30%;
+                    display: block;
+                    text-align: center;
+                }            
+                button.limpiar {
+                    @include botones;
+                    &:hover{
+                        background-color: #ff6464;
+                        border-color: #ff9494;
+                    }
+                    &:active{
+                        padding: 0.2em;
+                    }
+                }
+                button.enviar {
+                    @include botones;
+                    &:hover{
+                        background-color: #ff6464;
+                        border-color: #ff9494;
+                    }
+                    &:active{
+                        padding: 0.2em;
+                    }
                 }
             }
-            button.enviar {
-                display: block;
-                position: absolute;
-                top: 530px;
-                left: 70%;
-                text-align: center;
-                border-color: #ff5858;
-                background-color:#ff9898;
-                font-family: 'Lexend Peta', sans-serif;
-                font-size: 17px;
-                font-weight: bold;
-                color: rgb(0, 0, 0);
-                padding: 10px;
-                text-shadow: $sombraPrincipal;
-                &:hover{
-                    background-color: #ff6464;
-                    border-color: #ff9494;
-                }
-                &:active{
-                    padding: 0.2em;
-                }
-            }
-        }
     }
     div.card {
         position: absolute;
-        top: 950px;
+        top: 1300px;
         left: 200px;
     }
 }

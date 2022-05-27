@@ -7,11 +7,18 @@ $buttons: (
 );
 /* MIXIN */
 @mixin iframes {
-    display: block;
-    text-align: center;
-    margin: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 2.3rem;
 }
-
+@mixin buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+    border-radius: 2%;
+}
 /* MAIN */
 main {
         background-image: url("../multimedia/SP-nowayhome.jpg");
@@ -42,18 +49,22 @@ main {
             h4.title1 {
                 margin-left: 45px;
                 margin-bottom: 15px;
+                font-weight: bold;
             }
             h4.title2 {
                 font-size: 90px;
                 margin-left: 10px;
+                font-weight: bold;
             }
             h4.title3 {
                 margin-left: 55px;
                 margin-top:15px;
+                font-weight: bold;
             }
             h5.textP {
                 font-size: 35px;
-                margin-top: 10px;;
+                margin-top: 10px;
+                font-weight: bold;
             }
             button.watchNow {
             display: map-get($buttons, tipo);
@@ -79,18 +90,24 @@ main {
                 }
             }
         }
+    div.cards-containers{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
         div.container-2 {
             display: block; 
             background-color: #ff5858;
-            padding: 10px; 
-            position: absolute;
-            top: 540px;
-            left: 200px;
+            width: 30rem;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 20px;
             h4.homecoming {
                 @extend .farFromHome;
                 display: inline-block;
                 margin: 10px;
                 font-family: 'Lexend Peta', sans-serif;
+                font-weight: bold;
                 font-size: 25px;
                 text-align: center;
                 color: #fff;
@@ -101,6 +118,7 @@ main {
                 @include iframes;
             }
             button.verAhora1 {
+                @include buttons;
                 display: map-get($buttons, tipo);
                 text-align: map-get($buttons, centro);
                 border-color: map-get($buttons, colorBorde);
@@ -125,16 +143,17 @@ main {
             }
         }
         div.container-3 {
-            display: block;
+            display: block; 
             background-color: #ff5858;
-            padding: 10px;
-            position: absolute;
-            top: 540px;
-            right: 200px;
+            width: 30rem;
+            border-radius: 5px;
+            margin: 20px;
+            padding: 20px;
             h4.farFromHome {
                 display: inline-block;
                 margin: 10px;
                 font-family: 'Roboto Mono', monospace;
+                font-weight: bold;
                 font-size: 25px;
                 text-align: center;
                 color: #fff;
@@ -145,6 +164,7 @@ main {
                 @include iframes;
             }
             button.verAhora2 {
+                @include buttons;
                 display: inline-block;
                 text-align: center;
                 border-color: #ff5858;
@@ -169,11 +189,12 @@ main {
                 }
             }
         }
-        #carouselExampleSlidesOnly {
-            position: absolute;
-            top: 1000px;
-            width: 100%;
-            height: 40%;
-            align-content: center;
-        }
-        }
+    }
+    #carouselExampleSlidesOnly {
+        position: absolute;
+        top: 1500px;
+        width: 100%;
+        height: 40%;
+        align-content: center;
+    }
+}

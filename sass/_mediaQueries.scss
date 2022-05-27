@@ -1,28 +1,79 @@
  /* MEDIA QUERIES */
-@media (max-width: 400px) {
-    .toggle-button {
-        display: flex;
-    }
-    .navbar {
-        flex-direction: column;
-        align-items: flex-start;
-        .navbar-links {
-            /* display: none; */
-            width: 100%;
-            ul {
-                width: 100%;
-                flex-direction:column;
-                li {
-                    text-align: center;
-                    a {
-                        padding: .5rem 1rem;
-                        .active {
-                            display: flex;
-                        }
-                    }
-                }
-            }
-        }
 
+ /* CONTACT PAGE */
+ @media screen and (max-width: 400px) {
+    #tituloContacto {
+        position: relative;
+        left: 5px;
+    }
+    #subtituloContacto-2 {
+        position: relative;
+        top: 200px;
+        left: 6px;
+    }
+    #input {
+        position: relative;
+        left: 2px;
+    }
+    #elegirPelicula {
+        position: relative;
+        left: 2px;
+    }
+    #card-contact {
+        position: relative;
+        left: 20px;
+        top: 800px;
+    }
+}
+/* BLOGS PAGE */
+@media screen and (max-width: 400px) {
+    #tituloBlogs {
+        position: relative;
+        left: 8px;
+    }
+    #subtituloBlogs-1{
+        position: relative;
+        left: 5px;
+    }
+    #subtituloBlogs-2 {
+        position: relative;
+        left: 3px;
+    }
+}
+
+/* FILMS PAGE */
+
+@media (max-width: 800px) {
+    body {
+        overflow-x: hidden;
+    }
+    #tituloPeliculas {
+        position: relative;
+        left: 1px;
+        font-size: 40px;
+    }
+    #subtituloPeliculas {
+        position: relative;
+        left: 5px;
+        font-size: 25px;
+    }
+    table {
+        width: 100%;
+        position: relative;
+        top: 900px;
+        tr {
+            display: flex;
+            flex-direction: column;
+            padding: 1em;
+            position: relative;
+            top: 800px;
+        }
+        #thead {
+            display: none;
+        }
+    }
+    #footerPeli {
+        position: relative;
+        top: 7000px;
     }
 }

@@ -84,16 +84,20 @@ main {
     text-shadow: white; }
     main div.container-1 h4.title1 {
       margin-left: 45px;
-      margin-bottom: 15px; }
+      margin-bottom: 15px;
+      font-weight: bold; }
     main div.container-1 h4.title2 {
       font-size: 90px;
-      margin-left: 10px; }
+      margin-left: 10px;
+      font-weight: bold; }
     main div.container-1 h4.title3 {
       margin-left: 55px;
-      margin-top: 15px; }
+      margin-top: 15px;
+      font-weight: bold; }
     main div.container-1 h5.textP {
       font-size: 35px;
-      margin-top: 10px; }
+      margin-top: 10px;
+      font-weight: bold; }
     main div.container-1 button.watchNow {
       display: inline-block;
       text-align: center;
@@ -113,88 +117,107 @@ main {
         border-color: #ff9494; }
       main div.container-1 button.watchNow a:active {
         padding: 0.2em; }
-  main div.container-2 {
-    display: block;
-    background-color: #ff5858;
-    padding: 10px;
-    position: absolute;
-    top: 540px;
-    left: 200px; }
-    main div.container-2 h4.homecoming {
-      display: inline-block;
-      margin: 10px;
-      font-family: 'Lexend Peta', sans-serif;
-      font-size: 25px;
-      text-align: center;
-      color: #fff;
-      text-shadow: #000005;
-      margin-left: 30%; }
-    main div.container-2 iframe.youtube1 {
+  main div.cards-containers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; }
+    main div.cards-containers div.container-2 {
       display: block;
-      text-align: center;
-      margin: 10px; }
-    main div.container-2 button.verAhora1 {
-      display: inline-block;
-      text-align: center;
-      border-color: #ff5858;
-      background-color: #ff9898;
-      margin-left: 35%; }
-      main div.container-2 button.verAhora1 a {
-        text-decoration: none;
-        text-align: center;
-        font-family: 'Roboto Mono', monospace;
-        font-size: 17px;
-        color: black;
-        padding: 10px;
-        text-shadow: #000005; }
-        main div.container-2 button.verAhora1 a:hover {
-          background-color: #ff6464;
-          border-color: #ff9494; }
-        main div.container-2 button.verAhora1 a:active {
-          padding: 0.2em; }
-  main div.container-3 {
-    display: block;
-    background-color: #ff5858;
-    padding: 10px;
-    position: absolute;
-    top: 540px;
-    right: 200px; }
-    main div.container-3 h4.farFromHome, main div.container-3 div.container-2 h4.homecoming, main div.container-2 div.container-3 h4.homecoming {
-      display: inline-block;
-      margin: 10px;
-      font-family: 'Roboto Mono', monospace;
-      font-size: 25px;
-      text-align: center;
-      color: #fff;
-      text-shadow: #000005;
-      margin-left: 25%; }
-    main div.container-3 iframe.youtube2 {
-      display: block;
-      text-align: center;
-      margin: 10px; }
-    main div.container-3 button.verAhora2 {
-      display: inline-block;
-      text-align: center;
-      border-color: #ff5858;
-      background-color: #ff9898;
-      margin-left: 35%; }
-      main div.container-3 button.verAhora2 a {
-        text-decoration: none;
-        text-align: center;
+      background-color: #ff5858;
+      width: 30rem;
+      border-radius: 5px;
+      margin: 20px;
+      padding: 20px; }
+      main div.cards-containers div.container-2 h4.homecoming {
+        display: inline-block;
+        margin: 10px;
         font-family: 'Lexend Peta', sans-serif;
-        font-size: 17px;
         font-weight: bold;
-        color: black;
-        padding: 10px;
-        text-shadow: #000005; }
-        main div.container-3 button.verAhora2 a:hover {
-          background-color: #ff6464;
-          border-color: #ff9494; }
-        main div.container-3 button.verAhora2 a:active {
-          padding: 0.2em; }
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+        text-shadow: #000005;
+        margin-left: 30%; }
+      main div.cards-containers div.container-2 iframe.youtube1 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 2.3rem; }
+      main div.cards-containers div.container-2 button.verAhora1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+        border-radius: 2%;
+        display: inline-block;
+        text-align: center;
+        border-color: #ff5858;
+        background-color: #ff9898;
+        margin-left: 35%; }
+        main div.cards-containers div.container-2 button.verAhora1 a {
+          text-decoration: none;
+          text-align: center;
+          font-family: 'Roboto Mono', monospace;
+          font-size: 17px;
+          color: black;
+          padding: 10px;
+          text-shadow: #000005; }
+          main div.cards-containers div.container-2 button.verAhora1 a:hover {
+            background-color: #ff6464;
+            border-color: #ff9494; }
+          main div.cards-containers div.container-2 button.verAhora1 a:active {
+            padding: 0.2em; }
+    main div.cards-containers div.container-3 {
+      display: block;
+      background-color: #ff5858;
+      width: 30rem;
+      border-radius: 5px;
+      margin: 20px;
+      padding: 20px; }
+      main div.cards-containers div.container-3 h4.farFromHome, main div.cards-containers div.container-3 div.container-2 h4.homecoming, main div.cards-containers div.container-2 div.container-3 h4.homecoming {
+        display: inline-block;
+        margin: 10px;
+        font-family: 'Roboto Mono', monospace;
+        font-weight: bold;
+        font-size: 25px;
+        text-align: center;
+        color: #fff;
+        text-shadow: #000005;
+        margin-left: 25%; }
+      main div.cards-containers div.container-3 iframe.youtube2 {
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        margin: 2.3rem; }
+      main div.cards-containers div.container-3 button.verAhora2 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 2px;
+        border-radius: 2%;
+        display: inline-block;
+        text-align: center;
+        border-color: #ff5858;
+        background-color: #ff9898;
+        margin-left: 35%; }
+        main div.cards-containers div.container-3 button.verAhora2 a {
+          text-decoration: none;
+          text-align: center;
+          font-family: 'Lexend Peta', sans-serif;
+          font-size: 17px;
+          font-weight: bold;
+          color: black;
+          padding: 10px;
+          text-shadow: #000005; }
+          main div.cards-containers div.container-3 button.verAhora2 a:hover {
+            background-color: #ff6464;
+            border-color: #ff9494; }
+          main div.cards-containers div.container-3 button.verAhora2 a:active {
+            padding: 0.2em; }
   main #carouselExampleSlidesOnly {
     position: absolute;
-    top: 1000px;
+    top: 1500px;
     width: 100%;
     height: 40%;
     align-content: center; }
@@ -230,198 +253,209 @@ footer {
       height: 50px;
       width: 50px;
       border-radius: 50%; }
+  footer span {
+    color: white;
+    font-family: 'Lexend Peta', sans-serif;
+    font-size: 17px;
+    text-align: center;
+    margin: 0.1px;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem; }
 
 /* END INDEX */
 /* PÁGINAS ANEXAS */
 /* MARVEL */
 /* MARVEL MAIN */
 /* MARVEL TITLE */
-main h1.h1Marvel {
-  display: inline-block;
+main section div h1.h1Marvel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  display: block;
   position: absolute;
   color: white;
   text-shadow: 0 0 8px rgba(255, 255, 255, 0.7);
   top: 50px;
-  left: 50%;
-  margin: 30px;
+  left: 10%;
+  margin: 25px;
   padding: 10px;
   font-family: 'Lexend Peta', sans-serif;
   letter-spacing: 5px;
   font-size: 50px; }
 
-main div.historiaMarvel {
-  display: block;
-  position: absolute;
-  top: 100px;
-  left: 50px;
-  right: 60%;
-  bottom: 220px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.historiaMarvel h2.tituloHistoria {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 30px;
-    color: #fff;
-    text-shadow: #000005;
-    margin-bottom: 20px; }
-  main div.historiaMarvel h4.textoHistoria {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 20px;
-    color: #fff;
-    text-shadow: #000005; }
-
-main div.juegosMarvel {
-  display: block;
-  position: absolute;
-  top: 150px;
-  left: 600px;
-  right: 50px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.juegosMarvel h2 {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 20px;
-    color: #fff;
-    text-shadow: #000005;
-    margin-bottom: 20px; }
-  main div.juegosMarvel h1.h1Juegos {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 30px;
-    color: #fff;
-    text-shadow: #000005;
-    margin-bottom: 20px; }
-  main div.juegosMarvel h4.textoJuegos {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 18px;
-    color: #fff;
-    text-shadow: #000005;
-    margin: 5px; }
-  main div.juegosMarvel button.comprarJuego {
-    display: inline-block;
-    margin: 10px;
-    padding: 10px;
-    background-color: #ffbebe;
-    border-color: #facaca; }
-    main div.juegosMarvel button.comprarJuego a {
+main section div.containers__marvel--cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  position: relative;
+  top: 300px; }
+  main section div.containers__marvel--cards div.historiaMarvel {
+    display: block;
+    background-color: #ff5858;
+    text-align: center;
+    width: 30rem;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px; }
+    main section div.containers__marvel--cards div.historiaMarvel h2.tituloHistoria {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 30px;
+      color: #fff;
+      text-shadow: #000005;
+      margin-bottom: 20px; }
+    main section div.containers__marvel--cards div.historiaMarvel h4.textoHistoria {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 20px;
+      color: #fff;
+      text-shadow: #000005; }
+  main section div.containers__marvel--cards div.juegosMarvel {
+    display: block;
+    background-color: #ff5858;
+    text-align: center;
+    width: 30rem;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px; }
+    main section div.containers__marvel--cards div.juegosMarvel h2 {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 20px;
+      color: #fff;
+      text-shadow: #000005;
+      margin-bottom: 20px; }
+    main section div.containers__marvel--cards div.juegosMarvel h1.h1Juegos {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 30px;
+      color: #fff;
+      text-shadow: #000005;
+      margin-bottom: 20px; }
+    main section div.containers__marvel--cards div.juegosMarvel h4.textoJuegos {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 18px;
+      color: #fff;
+      text-shadow: #000005;
+      margin: 5px; }
+    main section div.containers__marvel--cards div.juegosMarvel button.comprarJuego {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px;
+      background-color: #ffbebe;
+      border-color: #facaca; }
+      main section div.containers__marvel--cards div.juegosMarvel button.comprarJuego a {
+        color: black;
+        text-decoration: none;
+        font-weight: bold;
+        font-family: 'Lexend Peta', sans-serif;
+        letter-spacing: 4px;
+        text-shadow: #000005; }
+        main section div.containers__marvel--cards div.juegosMarvel button.comprarJuego a:hover {
+          background-color: #facaca;
+          border-color: #ff9898; }
+        main section div.containers__marvel--cards div.juegosMarvel button.comprarJuego a:active {
+          padding: 0.2em; }
+    main section div.containers__marvel--cards div.juegosMarvel h3.verJuegos a {
       color: black;
       text-decoration: none;
+      font-size: 15px;
       font-weight: bold;
       font-family: 'Lexend Peta', sans-serif;
       letter-spacing: 4px;
       text-shadow: #000005; }
-      main div.juegosMarvel button.comprarJuego a:hover {
-        background-color: #facaca;
-        border-color: #ff9898; }
-      main div.juegosMarvel button.comprarJuego a:active {
-        padding: 0.2em; }
-  main div.juegosMarvel h3.verJuegos a {
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 4px;
-    text-shadow: #000005; }
-
-main div.comicsMarvel {
-  display: block;
-  position: absolute;
-  top: 610px;
-  left: 50px;
-  right: 800px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.comicsMarvel h2.tituloComics {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 25px;
-    color: #fff;
-    text-shadow: #000005;
-    margin-bottom: 20px; }
-  main div.comicsMarvel h4.textoComics {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 18px;
-    color: #fff;
-    text-shadow: #000005;
-    margin: 10px; }
-  main div.comicsMarvel h3.h3Comics a {
-    color: black;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 4px;
-    text-shadow: #000005; }
-
-main div.disneyPlus {
-  display: block;
-  position: absolute;
-  top: 1100px;
-  left: 50px;
-  right: 800px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.disneyPlus h2 {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 25px;
-    color: #fff;
-    text-shadow: #000005;
-    margin-bottom: 20px; }
-  main div.disneyPlus h4 a {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #fff;
-    text-shadow: #000005;
-    margin: 10px; }
-
-main div.sonyPictures {
-  display: block;
-  position: absolute;
-  top: 900px;
-  left: 600px;
-  right: 50px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.sonyPictures h2 {
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 2px;
-    font-size: 25px;
-    color: #fff;
-    text-shadow: #000005;
-    margin-bottom: 20px; }
-  main div.sonyPictures h4 a {
-    font-family: 'Lexend Peta', sans-serif;
-    text-decoration: none;
-    letter-spacing: 2px;
-    font-size: 20px;
-    color: #fff;
-    text-shadow: #000005;
-    margin-bottom: 20px; }
-  main div.sonyPictures ul li {
-    list-style-type: none; }
-    main div.sonyPictures ul li a {
+  main section div.containers__marvel--cards div.comicsMarvel {
+    display: block;
+    background-color: #ff5858;
+    text-align: center;
+    width: 30rem;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px; }
+    main section div.containers__marvel--cards div.comicsMarvel h2.tituloComics {
       font-family: 'Lexend Peta', sans-serif;
-      display: inline-block;
+      letter-spacing: 2px;
+      font-size: 25px;
+      color: #fff;
+      text-shadow: #000005;
+      margin-bottom: 20px; }
+    main section div.containers__marvel--cards div.comicsMarvel h4.textoComics {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 18px;
+      color: #fff;
+      text-shadow: #000005;
+      margin: 10px; }
+    main section div.containers__marvel--cards div.comicsMarvel h3.h3Comics a {
+      color: black;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: bold;
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 4px;
+      text-shadow: #000005; }
+  main section div.containers__marvel--cards div.disneyPlus {
+    display: block;
+    background-color: #ff5858;
+    text-align: center;
+    width: 30rem;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px; }
+    main section div.containers__marvel--cards div.disneyPlus h2 {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 25px;
+      color: #fff;
+      text-shadow: #000005;
+      margin-bottom: 20px; }
+    main section div.containers__marvel--cards div.disneyPlus h4 a {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      text-decoration: none;
+      font-size: 18px;
+      color: black;
+      text-shadow: #000005;
+      margin: 10px; }
+  main section div.containers__marvel--cards div.sonyPictures {
+    display: block;
+    background-color: #ff5858;
+    text-align: center;
+    width: 30rem;
+    border-radius: 5px;
+    margin: 20px;
+    padding: 20px; }
+    main section div.containers__marvel--cards div.sonyPictures h2 {
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 2px;
+      font-size: 25px;
+      color: #fff;
+      text-shadow: #000005;
+      margin-bottom: 20px; }
+    main section div.containers__marvel--cards div.sonyPictures h4 a {
+      font-family: 'Lexend Peta', sans-serif;
       text-decoration: none;
       letter-spacing: 2px;
       font-size: 20px;
       color: #fff;
       text-shadow: #000005;
-      margin: 20px; }
+      margin-bottom: 20px; }
+    main section div.containers__marvel--cards div.sonyPictures ul li {
+      list-style-type: none; }
+      main section div.containers__marvel--cards div.sonyPictures ul li a {
+        font-family: 'Lexend Peta', sans-serif;
+        display: inline-block;
+        text-decoration: none;
+        letter-spacing: 2px;
+        font-size: 20px;
+        color: black;
+        text-shadow: #000005;
+        margin: 20px; }
 
 /* END MARVEL */
 /* PELICULAS */
@@ -468,6 +502,7 @@ main table {
 
 /* END PELICULAS */
 /* CONTACTO */
+/* MIXIN - VARS */
 /* CONTACTO MAIN */
 main h2.tituloContacto {
   display: inline-block;
@@ -475,8 +510,8 @@ main h2.tituloContacto {
   color: white;
   text-shadow: white;
   top: 50px;
-  left: 35%;
-  margin: 30px;
+  left: 15%;
+  margin: 20px;
   padding: 10px;
   font-family: 'Lexend Peta', sans-serif;
   letter-spacing: 5px;
@@ -488,7 +523,7 @@ main div h3.subtituloContacto-1 {
   color: white;
   text-shadow: white;
   top: 130px;
-  left: 15%;
+  left: 5%;
   margin: 30px;
   padding: 10px;
   font-family: 'Lexend Peta', sans-serif;
@@ -501,166 +536,162 @@ main div h4.subtituloContacto-2 {
   color: white;
   text-shadow: white;
   top: 190px;
-  left: 23%;
+  left: 13%;
   margin: 30px;
   padding: 10px;
   font-family: 'Lexend Peta', sans-serif;
   letter-spacing: 5px;
   font-size: 20px; }
 
-main div form fieldset {
-  display: block;
-  position: absolute;
-  top: 300px;
-  left: 150px;
-  bottom: -400px;
-  right: 150px;
-  background-color: #ff5858;
-  border-color: #141429; }
-  main div form fieldset legend {
-    display: inline-block;
-    margin: 30px;
-    padding: 10px;
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 4px;
-    font-size: 23px;
-    font-weight: bold;
-    color: white;
-    text-shadow: white; }
-  main div form fieldset input.nombre {
+main div.card--contacto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center; }
+  main div.card--contacto form fieldset {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     display: block;
-    position: absolute;
-    top: 30px;
-    left: 40%;
-    text-align: center;
-    box-shadow: white;
-    width: 300px;
-    height: 35px; }
-  main div form fieldset input.apellido {
-    display: block;
-    position: absolute;
-    top: 80px;
-    left: 40%;
-    text-align: center;
-    box-shadow: white;
-    width: 300px;
-    height: 35px; }
-  main div form fieldset input.email {
-    display: block;
-    position: absolute;
-    top: 130px;
-    left: 40%;
-    text-align: center;
-    box-shadow: white;
-    width: 300px;
-    height: 35px; }
-  main div form fieldset input.contraseña {
-    display: block;
-    position: absolute;
-    top: 180px;
-    left: 40%;
-    text-align: center;
-    box-shadow: white;
-    width: 300px;
-    height: 35px; }
-  main div form fieldset #elegirPelicula {
-    display: block;
-    position: absolute;
-    top: 230px;
-    left: 40%;
-    text-align: center;
-    background-color: #ffbebe;
-    box-shadow: white;
-    width: 300px;
-    height: 35px; }
-  main div form fieldset div.checkbox {
-    display: block;
-    position: absolute;
-    top: 380px;
-    left: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 4px;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    text-shadow: white; }
-  main div form fieldset div.tipoAporte {
-    display: block;
-    position: absolute;
-    top: 330px;
-    left: 50%;
-    margin-left: 10px;
-    margin-right: 10px;
-    padding: 20px;
-    font-family: 'Lexend Peta', sans-serif;
-    letter-spacing: 4px;
-    font-size: 15px;
-    font-weight: bold;
-    color: white;
-    text-shadow: white; }
-  main div form fieldset #img {
-    display: block;
-    position: absolute;
-    top: 280px;
-    left: 15%;
-    text-align: center;
-    width: 300px;
-    height: 35px; }
-  main div form fieldset #comentario {
-    display: block;
-    position: absolute;
-    top: 330px;
-    left: 15%;
-    text-align: center; }
-  main div form fieldset button.limpiar {
-    display: block;
-    position: absolute;
-    top: 530px;
-    left: 55%;
-    text-align: center;
-    border-color: #ff5858;
-    background-color: #ff9898;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    text-shadow: #000005; }
-    main div form fieldset button.limpiar:hover {
-      background-color: #ff6464;
-      border-color: #ff9494; }
-    main div form fieldset button.limpiar:active {
-      padding: 0.2em; }
-  main div form fieldset button.enviar {
-    display: block;
-    position: absolute;
-    top: 530px;
-    left: 70%;
-    text-align: center;
-    border-color: #ff5858;
-    background-color: #ff9898;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    text-shadow: #000005; }
-    main div form fieldset button.enviar:hover {
-      background-color: #ff6464;
-      border-color: #ff9494; }
-    main div form fieldset button.enviar:active {
-      padding: 0.2em; }
+    position: relative;
+    top: 400px;
+    background-color: #ff5858;
+    border-color: #141429; }
+    main div.card--contacto form fieldset legend {
+      display: inline-block;
+      margin: 30px;
+      padding: 10px;
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 4px;
+      font-size: 23px;
+      font-weight: bold;
+      color: white;
+      text-shadow: white; }
+    main div.card--contacto form fieldset input.nombre {
+      display: block;
+      margin: 10px;
+      border-radius: 4px;
+      position: relative;
+      left: 23%;
+      text-align: center;
+      box-shadow: white;
+      width: 300px;
+      height: 35px; }
+    main div.card--contacto form fieldset input.apellido {
+      display: block;
+      margin: 10px;
+      border-radius: 4px;
+      position: relative;
+      left: 23%;
+      text-align: center;
+      box-shadow: white;
+      width: 300px;
+      height: 35px; }
+    main div.card--contacto form fieldset input.email {
+      display: block;
+      margin: 10px;
+      border-radius: 4px;
+      position: relative;
+      left: 23%;
+      text-align: center;
+      box-shadow: white;
+      width: 300px;
+      height: 35px; }
+    main div.card--contacto form fieldset input.contraseña {
+      display: block;
+      margin: 10px;
+      border-radius: 4px;
+      position: relative;
+      left: 23%;
+      text-align: center;
+      box-shadow: white;
+      width: 300px;
+      height: 35px; }
+    main div.card--contacto form fieldset .elegirPelicula {
+      display: block;
+      margin: 10px;
+      border-radius: 4px;
+      position: relative;
+      left: 23%;
+      text-align: center;
+      box-shadow: white;
+      width: 300px;
+      height: 35px; }
+    main div.card--contacto form fieldset div.checkbox {
+      display: block;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 20px;
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 4px;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+      text-shadow: white; }
+    main div.card--contacto form fieldset div.tipoAporte {
+      display: block;
+      margin-left: 10px;
+      margin-right: 10px;
+      padding: 20px;
+      font-family: 'Lexend Peta', sans-serif;
+      letter-spacing: 4px;
+      font-size: 15px;
+      font-weight: bold;
+      color: white;
+      text-shadow: white; }
+    main div.card--contacto form fieldset #img {
+      display: block;
+      margin: 30px;
+      text-align: center;
+      width: 300px;
+      height: 35px; }
+    main div.card--contacto form fieldset #comentario {
+      margin-left: 30%;
+      display: block;
+      text-align: center; }
+    main div.card--contacto form fieldset button.limpiar {
+      display: block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      color: black;
+      padding: 10px;
+      text-shadow: #000005;
+      margin: 20px; }
+      main div.card--contacto form fieldset button.limpiar:hover {
+        background-color: #ff6464;
+        border-color: #ff9494; }
+      main div.card--contacto form fieldset button.limpiar:active {
+        padding: 0.2em; }
+    main div.card--contacto form fieldset button.enviar {
+      display: block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 17px;
+      font-weight: bold;
+      color: black;
+      padding: 10px;
+      text-shadow: #000005;
+      margin: 20px; }
+      main div.card--contacto form fieldset button.enviar:hover {
+        background-color: #ff6464;
+        border-color: #ff9494; }
+      main div.card--contacto form fieldset button.enviar:active {
+        padding: 0.2em; }
 
 main div.card {
   position: absolute;
-  top: 950px;
+  top: 1300px;
   left: 200px; }
 
 /* END CONTACTO */
 /* BLOGS */
+/* MIXIN */
 /* BLOGS MAIN */
 main h2.tituloBlogs {
   display: inline-block;
@@ -677,220 +708,250 @@ main h2.tituloBlogs {
 
 main h2.subtituloBlogs-1 {
   display: inline-block;
-  position: absolute;
   color: white;
   text-shadow: white;
-  top: 130px;
-  left: 10%;
   margin: 30px;
   padding: 10px;
   font-family: 'Lexend Peta', sans-serif;
   letter-spacing: 5px;
-  font-size: 20px; }
+  font-size: 20px;
+  position: absolute;
+  top: 130px;
+  left: 10%; }
 
 main h3.subtituloBlogs-2 {
   display: inline-block;
-  position: absolute;
   color: white;
   text-shadow: white;
-  top: 190px;
-  left: 25%;
   margin: 30px;
   padding: 10px;
   font-family: 'Lexend Peta', sans-serif;
   letter-spacing: 5px;
-  font-size: 20px; }
-
-main div.spWiki {
-  display: block;
+  font-size: 20px;
   position: absolute;
-  top: 450px;
-  left: 200px;
-  right: 50%;
-  bottom: 0px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.spWiki h4 {
+  top: 190px;
+  left: 25%; }
+
+main div.cards-blogs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 15px;
+  position: relative;
+  top: 800px; }
+  main div.cards-blogs div.spWiki {
     display: block;
-    margin: 10px;
-    margin-bottom: 50px;
-    font-size: 20px;
+    background-color: #ff5858;
+    padding: 40px;
     text-align: center;
-    font-family: 'Lexend Peta', sans-serif;
-    color: #fff;
-    text-shadow: #000005; }
-  main div.spWiki button {
-    display: block;
-    float: right;
-    text-align: center;
-    border-color: #ff5858;
-    background-color: #ff9898;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    text-shadow: #000005; }
-    main div.spWiki button a {
-      text-decoration: none;
+    border-radius: 4px;
+    margin: 20px; }
+    main div.cards-blogs div.spWiki h4 {
+      display: block;
+      margin: 10px;
+      margin-bottom: 50px;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Lexend Peta', sans-serif;
+      color: #fff;
+      text-shadow: #000005; }
+    main div.cards-blogs div.spWiki button {
+      display: block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
       color: black;
       padding: 10px;
       text-shadow: #000005; }
-      main div.spWiki button a:hover {
-        background-color: #ff6464;
-        border-color: #ff9494; }
-      main div.spWiki button a:active {
-        padding: 0.2em; }
-
-main div.spFacebook {
-  display: block;
-  position: absolute;
-  top: 680px;
-  left: 700px;
-  right: 200px;
-  bottom: -200px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.spFacebook h4 {
+      main div.cards-blogs div.spWiki button a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        text-shadow: #000005; }
+        main div.cards-blogs div.spWiki button a:hover {
+          background-color: #ff6464;
+          border-color: #ff9494; }
+        main div.cards-blogs div.spWiki button a:active {
+          padding: 0.2em; }
+  main div.cards-blogs div.spFacebook {
     display: block;
-    margin: 10px;
-    margin-bottom: 50px;
-    font-size: 20px;
+    background-color: #ff5858;
+    padding: 40px;
     text-align: center;
-    font-family: 'Lexend Peta', sans-serif;
-    color: #fff;
-    text-shadow: #000005; }
-  main div.spFacebook button {
-    display: block;
-    float: right;
-    text-align: center;
-    border-color: #ff5858;
-    background-color: #ff9898;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    text-shadow: #000005; }
-    main div.spFacebook button a {
-      text-decoration: none;
+    border-radius: 4px;
+    margin: 20px; }
+    main div.cards-blogs div.spFacebook h4 {
+      display: block;
+      margin: 10px;
+      margin-bottom: 50px;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Lexend Peta', sans-serif;
+      color: #fff;
+      text-shadow: #000005; }
+    main div.cards-blogs div.spFacebook button {
+      display: block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
       color: black;
       padding: 10px;
       text-shadow: #000005; }
-      main div.spFacebook button a:hover {
-        background-color: #ff6464;
-        border-color: #ff9494; }
-      main div.spFacebook button a:active {
-        padding: 0.2em; }
-
-main div.superHeroes {
-  display: block;
-  position: absolute;
-  top: 900px;
-  left: 200px;
-  bottom: -500px;
-  right: 50%;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.superHeroes h4 {
+      main div.cards-blogs div.spFacebook button a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        text-shadow: #000005; }
+        main div.cards-blogs div.spFacebook button a:hover {
+          background-color: #ff6464;
+          border-color: #ff9494; }
+        main div.cards-blogs div.spFacebook button a:active {
+          padding: 0.2em; }
+  main div.cards-blogs div.superHeroes {
     display: block;
-    margin: 10px;
-    margin-bottom: 50px;
-    font-size: 20px;
+    background-color: #ff5858;
+    padding: 40px;
     text-align: center;
-    font-family: 'Lexend Peta', sans-serif;
-    color: #fff;
-    text-shadow: #000005; }
-  main div.superHeroes button {
-    display: block;
-    float: right;
-    text-align: center;
-    border-color: #ff5858;
-    background-color: #ff9898;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    text-shadow: #000005; }
-    main div.superHeroes button a {
-      text-decoration: none;
+    border-radius: 4px;
+    margin: 20px; }
+    main div.cards-blogs div.superHeroes h4 {
+      display: block;
+      margin: 10px;
+      margin-bottom: 50px;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Lexend Peta', sans-serif;
+      color: #fff;
+      text-shadow: #000005; }
+    main div.cards-blogs div.superHeroes button {
+      display: block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
       color: black;
       padding: 10px;
       text-shadow: #000005; }
-      main div.superHeroes button a:hover {
-        background-color: #ff6464;
-        border-color: #ff9494; }
-      main div.superHeroes button a:active {
-        padding: 0.2em; }
-
-main div.enTumblr {
-  display: block;
-  position: absolute;
-  top: 1200px;
-  left: 700px;
-  right: 200px;
-  bottom: -800px;
-  background-color: #ff5858;
-  padding: 40px;
-  text-align: center; }
-  main div.enTumblr h4 {
+      main div.cards-blogs div.superHeroes button a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        text-shadow: #000005; }
+        main div.cards-blogs div.superHeroes button a:hover {
+          background-color: #ff6464;
+          border-color: #ff9494; }
+        main div.cards-blogs div.superHeroes button a:active {
+          padding: 0.2em; }
+  main div.cards-blogs div.enTumblr {
     display: block;
-    margin: 10px;
-    margin-bottom: 50px;
-    font-size: 20px;
+    background-color: #ff5858;
+    padding: 40px;
     text-align: center;
-    font-family: 'Lexend Peta', sans-serif;
-    color: #fff;
-    text-shadow: #000005; }
-  main div.enTumblr button {
-    display: block;
-    float: right;
-    text-align: center;
-    border-color: #ff5858;
-    background-color: #ff9898;
-    font-family: 'Lexend Peta', sans-serif;
-    font-size: 15px;
-    font-weight: bold;
-    color: black;
-    padding: 10px;
-    text-shadow: #000005; }
-    main div.enTumblr button a {
-      text-decoration: none;
+    border-radius: 4px;
+    margin: 20px; }
+    main div.cards-blogs div.enTumblr h4 {
+      display: block;
+      margin: 10px;
+      margin-bottom: 50px;
+      font-size: 20px;
+      text-align: center;
+      font-family: 'Lexend Peta', sans-serif;
+      color: #fff;
+      text-shadow: #000005; }
+    main div.cards-blogs div.enTumblr button {
+      display: block;
+      text-align: center;
+      border-color: #ff5858;
+      background-color: #ff9898;
+      font-family: 'Lexend Peta', sans-serif;
+      font-size: 15px;
+      font-weight: bold;
       color: black;
       padding: 10px;
       text-shadow: #000005; }
-      main div.enTumblr button a:hover {
-        background-color: #ff6464;
-        border-color: #ff9494; }
-      main div.enTumblr button a:active {
-        padding: 0.2em; }
+      main div.cards-blogs div.enTumblr button a {
+        text-decoration: none;
+        color: black;
+        padding: 10px;
+        text-shadow: #000005; }
+        main div.cards-blogs div.enTumblr button a:hover {
+          background-color: #ff6464;
+          border-color: #ff9494; }
+        main div.cards-blogs div.enTumblr button a:active {
+          padding: 0.2em; }
 
 /* END BLOGS */
 /* MEDIA QUERIES */
 /* MOBILE */
 /* MEDIA QUERIES */
-@media (max-width: 400px) {
-  .toggle-button {
-    display: flex; }
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start; }
-    .navbar .navbar-links {
-      /* display: none; */
-      width: 100%; }
-      .navbar .navbar-links ul {
-        width: 100%;
-        flex-direction: column; }
-        .navbar .navbar-links ul li {
-          text-align: center; }
-          .navbar .navbar-links ul li a {
-            padding: .5rem 1rem; }
-            .navbar .navbar-links ul li a .active {
-              display: flex; } }
+/* CONTACT PAGE */
+@media screen and (max-width: 400px) {
+  #tituloContacto {
+    position: relative;
+    left: 5px; }
+  #subtituloContacto-2 {
+    position: relative;
+    top: 200px;
+    left: 6px; }
+  #input {
+    position: relative;
+    left: 2px; }
+  #elegirPelicula {
+    position: relative;
+    left: 2px; }
+  #card-contact {
+    position: relative;
+    left: 20px;
+    top: 800px; } }
+
+/* BLOGS PAGE */
+@media screen and (max-width: 400px) {
+  #tituloBlogs {
+    position: relative;
+    left: 8px; }
+  #subtituloBlogs-1 {
+    position: relative;
+    left: 5px; }
+  #subtituloBlogs-2 {
+    position: relative;
+    left: 3px; } }
+
+/* FILMS PAGE */
+@media (max-width: 800px) {
+  body {
+    overflow-x: hidden; }
+  #tituloPeliculas {
+    position: relative;
+    left: 1px;
+    font-size: 40px; }
+  #subtituloPeliculas {
+    position: relative;
+    left: 5px;
+    font-size: 25px; }
+  table {
+    width: 100%;
+    position: relative;
+    top: 900px; }
+    table tr {
+      display: flex;
+      flex-direction: column;
+      padding: 1em;
+      position: relative;
+      top: 800px; }
+    table #thead {
+      display: none; }
+  #footerPeli {
+    position: relative;
+    top: 7000px; } }
 
 /* END MOBILE */
 /* MAPS */
