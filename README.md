@@ -9,3 +9,5 @@ Aplicando SASS + SEO
 Tercera entrega del trabajo final.
 
 Actualización: Entrega del proyecto final aplicando SASS, Bootstrap y NodeJS. Con algunas modificaciones en su diseño. Desarrollada para vistas de dispositivos móviles.
+
+Futuras actualizaciones con arreglos de bugs y más contenido.
